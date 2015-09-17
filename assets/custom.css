@@ -1,0 +1,8 @@
+/* 
+	IE Fix
+*/
+@media screen and (min-width:0\0) {
+    span.content-item-thumbnail img {
+        height: auto !important;
+    }
+}
