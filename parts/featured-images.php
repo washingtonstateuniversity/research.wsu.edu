@@ -11,5 +11,5 @@ if ( spine_has_background_image() ) {
 if ( spine_has_featured_image() ) {
 	$featured_image_src = spine_get_featured_image_src();
 
-	?><div class="featured-wrap"><div class="g-b"><figure class="featured-image" style="background-image: url('<?php echo esc_url( $featured_image_src ); ?>');"><?php spine_the_featured_image(); ?></figure></div></div><?php
+	?><div class="featured-wrap"><figure class="featured-image" style="background-image: url('<?php echo esc_url( $featured_image_src ); ?>');"><?php spine_the_featured_image(); ?></figure><div class="g-b"></div></div><?php
 }
