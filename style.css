@@ -1112,7 +1112,12 @@ span.content-item-title {
 	height: auto;
 	margin-bottom: 1rem;
 }
-
+.single-post .main-header sup a:hover {
+	color:#008dc2;
+}
+.single-post .main-header sup span {
+	text-align: right;
+}
 /*Homepage*/
 .home main {
 	background: rgb(0,165,189);
