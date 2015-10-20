@@ -1219,19 +1219,18 @@ body[class*='sub-sub-section-'] .wsuwp-content-syndicate-wrapper ul {
 		bottom:0;
 		height:3.7rem;
 	}
-}
-@media screen and (min-width: 700px) and (max-width: 791px) {
-	.single-post .main-header .header-group{
-		height:12em;
+		.single-post .main-header .header-group{
+		height:14em;
 	}
 }
+
 @media screen and (min-width: 491px) and (max-width: 700px) {
-	.single-post .main-header .header-group{
-		height:15em;
+	.single-post sub.sub-header {
+		font-size:3.5rem;
 	}
 }
 @media screen and (max-width: 490px) {
-	.single-post .main-header .header-group{
-		height:16em;
+	.single-post sub.sub-header {
+		font-size:2.8rem;
 	}
 }
