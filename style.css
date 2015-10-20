@@ -40,7 +40,13 @@ main section:last-of-type {
 	height: 3.5rem;
 	margin-bottom: 6rem;
 }
-
+.single-post .main-header .header-group{
+	height:400px;
+}
+.single-post sub.sub-header {
+	position:absolute;
+	bottom:0;
+}
 .xxxmain-header {
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d0d0d0+0,efefef+100 */
 	background: rgb(208,208,208);
@@ -1199,5 +1205,33 @@ body[class*='sub-sub-section-'] .wsuwp-content-syndicate-wrapper ul {
 
 	.wsuwp-content-syndicate-item {
 		width: 100%;
+	}
+}
+@media screen and (max-width: 791px) {
+	.single-post .featured-wrap {
+		width:100%;
+	}
+	.single-post .main-header {
+		width:100%;
+	}
+	.single-post sub.sub-header {
+		position:relative;
+		bottom:0;
+		height:3.7rem;
+	}
+}
+@media screen and (min-width: 700px) and (max-width: 791px) {
+	.single-post .main-header .header-group{
+		height:12em;
+	}
+}
+@media screen and (min-width: 491px) and (max-width: 700px) {
+	.single-post .main-header .header-group{
+		height:15em;
+	}
+}
+@media screen and (max-width: 490px) {
+	.single-post .main-header .header-group{
+		height:16em;
 	}
 }
