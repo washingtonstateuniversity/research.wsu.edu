@@ -205,6 +205,9 @@ main section:nth-child(n+2) {
 	padding-bottom: 3rem;
 	background-attachment: fixed;
 }
+.gc-area.sustaining-health {
+	background-attachment: scroll;
+}
 .sub-section-sustaining-health .main-header {
 	background: none;
 }
@@ -288,6 +291,9 @@ body.sub-section-sustaining-health.section-research-initiatives main section:fir
 	background-position: top right;
 	padding-bottom: 3rem;
 	background-attachment: fixed;
+}
+.gc-area.sustainable-resources {
+	background-attachment: scroll;
 }
 .sub-section-sustainable-resources .main-header {
 	background: none;
@@ -373,6 +379,9 @@ body.sub-section-sustainable-resources.section-research-initiatives main section
 	padding-bottom: 3rem;
 	background-attachment: fixed;
 }
+.gc-area.opportunity-equity {
+	background-attachment: scroll;
+}
 .sub-section-opportunity-equity .main-header {
 	background: none;
 }
@@ -457,6 +466,9 @@ body.sub-section-opportunity-equity.section-research-initiatives main section:fi
 	padding-bottom: 3rem;
 	background-attachment: fixed;
 }
+.gc-area.smart-systems {
+	background-attachment: scroll;
+}
 .sub-section-smart-systems .main-header {
 	background: none;
 }
@@ -539,6 +551,9 @@ body.sub-section-smart-systems.section-research-initiatives main section:first-c
 	background-position: top right;
 	padding-bottom: 3rem;
 	background-attachment: fixed;
+}
+.gc-area.national-security {
+	background-attachment: scroll;
 }
 .sub-section-national-security .main-header {
 	background: none;
