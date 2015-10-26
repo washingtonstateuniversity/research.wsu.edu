@@ -7,3 +7,25 @@ add_action( 'wp_enqueue_scripts', 'research_enqueue_scripts');
 function research_enqueue_scripts() {
 	wp_enqueue_style( 'custom-style', get_stylesheet_directory_uri() . '/assets/custom-research.css' );
 }
+
+add_filter( 'wsu_content_syndicate_host_data', 'research_filter_syndicate_host_data', 10, 2 );
+/**
+ * Filter the thumbnail used from a remote host with WSU Content Syndicate
+ *
+ * @param object $subset Data associated with a single remote item.
+ * @param object $post   Original data used to build the subset.
+ *
+ * @return object Modified data.
+ */
+function research_filter_syndicate_host_data( $subset, $post ) {
+
+	if ( isset( $post->featured_image ) ) {
+		if ( isset( $post->featured_image->attachment_meta->sizes->{'spine-medium_size'}->url ) ) {
+			$subset->thumbnail = $post->featured_image->attachment_meta->sizes->{'spine-mediaum_size'}->url;
+		} else {
+			$subset->thumbnail = $post->featured_image->source;
+		}
+	}
+
+	return $subset;
+}
