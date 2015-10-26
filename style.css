@@ -983,12 +983,6 @@ span.content-item-thumbnail {
 	display: block;
 	width: 100%;
 }
-span.content-item-thumbnail img {
-	width: 100%;
-	height: 200px !important;
-	-o-object-fit: cover;
-	object-fit: cover;
-}
 span.content-item-title {
 	font-size: 1.25rem;
 	line-height: 1.5;
