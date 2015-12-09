@@ -5,7 +5,7 @@ Author: WSU University Communications
 Author URI: https://web.wsu.edu/
 Description: A child theme of the WSU Web Communications Spine template.
 Template: spine
-Version: 0.2.12
+Version: 0.2.13
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -892,7 +892,8 @@ ul.tabs li.current {
 .tab-content.current {
 	display: inherit;
 }
-#tabs > ul {
+#tabs > ul,
+#tabs2 > ul{
 	list-style: none;
 	padding: 0;
 	display: -webkit-box;
@@ -900,7 +901,8 @@ ul.tabs li.current {
 	display: -ms-flexbox;
 	display: flex;
 }
-#tabs > ul li {
+#tabs > ul li,
+#tabs2 > ul li{
 	font-size: .8rem;
 	-webkit-flex: 1;
 	-ms-flex: 1;
@@ -925,10 +927,12 @@ ul.tabs li.current {
 	-webkit-transition: background .3s ease;
 	transition: background .3s ease;
 }
-#tabs > ul li:last-child {
+#tabs > ul li:last-child,
+#tabs2 > ul li:last-child{
 	margin-right: 0;
 }
-#tabs > ul > li > a {
+#tabs > ul > li > a,
+#tabs2 > ul > li > a{
 	border-bottom: none;
 	color: #000;
 	font-weight: 400;
@@ -964,7 +968,9 @@ ul.tabs li.current {
 	clear: both;
 }
 #tabs > ul li.ui-state-active,
-#tabs > ul li:hover {
+#tabs > ul li:hover,
+#tabs2 > ul li.ui-state-active,
+#tabs2 > ul li:hover{
 	background: rgba(255, 255, 255, 1);
 }
 section.areas-tabbed-content {
