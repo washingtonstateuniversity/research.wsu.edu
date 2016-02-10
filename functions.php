@@ -32,3 +32,17 @@ function research_filter_syndicate_host_data( $subset, $post ) {
 
 	return $subset;
 }
+
+add_action( 'wp_head', 'research_add_meta_tags' );
+/**
+ * Output a mobile specific meta tag on stage.research.wsu.edu
+ */
+function research_add_meta_tags() {
+	global $current_blog;
+
+	if ( 'stage.research.wsu.edu' !== $current_blog->domain ) {
+		return;
+	}
+
+	?><meta name="apple-mobile-web-app-capable" content="yes"><?php
+}
