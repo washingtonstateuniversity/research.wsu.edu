@@ -18,7 +18,21 @@ add_filter( 'wsu_content_syndicate_host_data', 'research_filter_syndicate_host_d
  * @return object Modified data.
  */
 function research_filter_syndicate_host_data( $subset, $post ) {
-	if ( isset( $post->featured_media ) && isset( $post->_embedded->{'wp:featuredmedia'} ) && 0 < count( $post->_embedded->{'wp:featuredmedia'} ) ) {
+	if ( is_array( $post ) && ! empty ( $post['featured_media'] ) && ! empty( $post['_links']['wp:featuredmedia'] ) ) {
+		$media_request_url = $post['_links']['wp:featuredmedia'][0]['href'];
+		$media_request = WP_REST_Request::from_url( $media_request_url );
+		$media_response = rest_do_request( $media_request );
+		$data = $media_response->data;
+		$data = $data['media_details']['sizes'];
+
+		if ( isset( $data['post-thumbnail'] ) ) {
+			$subset->thumbnail = $data['post-thumbnail']['source_url'];
+		} elseif( isset( $data['thumbnail'] ) ) {
+			$subset->thumbnail = $data['thumbnail']['source_url'];
+		} else {
+			$subset->thumbnail = $media_response->data['source_url'];
+		}
+	} elseif ( isset( $post->featured_media ) && isset( $post->_embedded->{'wp:featuredmedia'} ) && 0 < count( $post->_embedded->{'wp:featuredmedia'} ) ) {
 		$subset_feature = $post->_embedded->{'wp:featuredmedia'}[0]->media_details;
 
 		if ( isset( $subset_feature->sizes->{'spine-medium_size'} ) ) {
