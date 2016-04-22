@@ -52,7 +52,7 @@ add_action( 'wp_head', 'research_add_meta_tags' );
 function research_add_meta_tags() {
 	global $current_blog;
 
-	if ( 'stage.research.wsu.edu' !== $current_blog->domain ) {
+	if ( 'research.wsu.edu' !== $current_blog->domain ) {
 		return;
 	}
 
