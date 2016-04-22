@@ -25,10 +25,8 @@ function research_filter_syndicate_host_data( $subset, $post ) {
 		$data = $media_response->data;
 		$data = $data['media_details']['sizes'];
 
-		if ( isset( $data['post-thumbnail'] ) ) {
-			$subset->thumbnail = $data['post-thumbnail']['source_url'];
-		} elseif( isset( $data['thumbnail'] ) ) {
-			$subset->thumbnail = $data['thumbnail']['source_url'];
+		if ( isset( $data['spine-medium-size'] ) ) {
+			$subset->thumbnail = $data['spine-medium-size']['source_url'];
 		} else {
 			$subset->thumbnail = $media_response->data['source_url'];
 		}
