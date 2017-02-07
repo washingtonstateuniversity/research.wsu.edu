@@ -59,13 +59,10 @@ function research_add_meta_tags() {
 	?><meta name="apple-mobile-web-app-capable" content="yes"><?php
 }
 
-
-
-
-
-
-
 add_action( 'wsu_register_inline_svg', 'register_svgs' );
+/**
+ * Register SVG data for the WSU Inline SVG plugin.
+ */
 function register_svgs() {
     ob_start();
     ?>
