@@ -73,7 +73,7 @@ function register_svgs() {
     ob_start();
     ?>
     <!-- project-sponsor-awards is pasted here -->
-<svg class="animate svg-graph project-sponsor-award" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 427.34 375">
+<svg class="animate svg-graph project-sponsor-award" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 430 375">
 	<defs>
 		<linearGradient id="psa-a" x1="184.75" y1="193.48" x2="184.75" y2="144.78" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#89b43f"/>
@@ -104,10 +104,12 @@ function register_svgs() {
 	<line x1="127.13" y1="182.93" x2="132.9" y2="182.93" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
 	<line x1="127.13" y1="142.34" x2="132.9" y2="142.34" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
 	<line x1="127.13" y1="101.75" x2="132.9" y2="101.75" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<rect x="143.27" y="144.78" width="82.97" height="48.7" style="fill:url(#psa-a)"/>
-	<rect x="258.5" y="126.92" width="82.97" height="63.31" style="fill:url(#psa-b)"/>
-	<rect x="143.27" y="193.48" width="82.97" height="111.21" style="fill:url(#psa-c)"/>
-	<rect x="258.5" y="190.23" width="82.97" height="114.45" style="fill:url(#psa-d)"/>
+	<g>
+		<rect x="143.27" y="144.78" width="82.97" height="48.7" style="fill:url(#psa-a)"/>
+		<rect x="258.5" y="126.92" width="82.97" height="63.31" style="fill:url(#psa-b)"/>
+		<rect x="143.27" y="193.48" width="82.97" height="111.21" style="fill:url(#psa-c)"/>
+		<rect x="258.5" y="190.23" width="82.97" height="114.45" style="fill:url(#psa-d)"/>
+	</g>
 	<text transform="translate(166.23 318.84)" style="font-size:8px;">FY 2015</text>
 	<text transform="translate(281.73 318.84)" style="font-size:8px;">FY 2016</text>
 	<text transform="translate(150.55 211.84)" style="font-size:11px;font-family:OpenSans-Semibold;font-weight:700">$137,237,387</text>
