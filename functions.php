@@ -73,7 +73,7 @@ function register_svgs() {
     ob_start();
     ?>
     <!-- project-sponsor-awards is pasted here -->
-<svg class="animate svg-graph project-sponsor-award" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 430 375">
+<svg class="animate svg-graph project-sponsor-award" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 350">
 	<defs>
 		<linearGradient id="psa-a" x1="184.75" y1="193.48" x2="184.75" y2="144.78" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#89b43f"/>
@@ -105,10 +105,12 @@ function register_svgs() {
 	<line x1="127.13" y1="142.34" x2="132.9" y2="142.34" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
 	<line x1="127.13" y1="101.75" x2="132.9" y2="101.75" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
 	<g>
-		<rect x="143.27" y="144.78" width="82.97" height="48.7" style="fill:url(#psa-a)"/>
-		<rect x="258.5" y="126.92" width="82.97" height="63.31" style="fill:url(#psa-b)"/>
-		<rect x="143.27" y="193.48" width="82.97" height="111.21" style="fill:url(#psa-c)"/>
-		<rect x="258.5" y="190.23" width="82.97" height="114.45" style="fill:url(#psa-d)"/>
+		<rect x="143.27" y="144.78" width="83" height="48.7" style="fill:url(#psa-a)"/>
+		<rect x="258.5" y="126.92" width="83" height="63.31" style="fill:url(#psa-b)"/>
+	</g>
+	<g>
+		<rect x="143.27" y="193.48" width="83" height="111.21" style="fill:url(#psa-c)"/>
+		<rect x="258.5" y="190.23" width="83" height="114.45" style="fill:url(#psa-d)"/>
 	</g>
 	<text transform="translate(166.23 318.84)" style="font-size:8px;">FY 2015</text>
 	<text transform="translate(281.73 318.84)" style="font-size:8px;">FY 2016</text>
@@ -128,7 +130,7 @@ function register_svgs() {
     ob_start();
     ?>
     <!-- royalty-revenue is pasted here -->
-<svg class="animate svg-graph royalty-revenue" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 427.34 375">
+<svg class="animate svg-graph royalty-revenue" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0  500 350">
 	<defs>
 		<linearGradient id="ra-a" x1="125.94" y1="223.09" x2="125.94" y2="305.78" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#00a5bd"/>
@@ -174,7 +176,7 @@ function register_svgs() {
  ob_start();
     ?>
     <!-- commercialization-activity is pasted here -->
-<svg class="animate svg-graph commercialization-activity" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 427.34 375">
+<svg class="animate svg-graph commercialization-activity" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 350">
 	<defs>
 		<linearGradient id="ca-a" x1="114.89" y1="305.34" x2="114.89" y2="233.01" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#f47623"/>
