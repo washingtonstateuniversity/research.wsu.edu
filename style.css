@@ -1220,6 +1220,10 @@ body[class*='sub-sub-section-'] .wsuwp-content-syndicate-wrapper ul {
 .award-from {
 	border: none;
 }
+/************** SVG graphs **************/
+.svg-graph text {
+	fill: #fff;
+}
 @media only screen and (max-width: 700px) {
 	body[class*='sub-sub-section-'] .wsuwp-content-syndicate-item,
 	.home .wsuwp-content-syndicate-item,
