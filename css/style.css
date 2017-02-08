@@ -1,0 +1,1281 @@
+html {
+	background-color: #eff0f1;
+}
+:focus {
+	outline: none;
+}
+main,
+.home .areas-tabbed-content {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00a5bd+20,b9c00a+100 */
+	background: rgb(0, 165, 189);
+	/* Old browsers */
+	/* FF3.6+ */
+	background-image: url('https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/research-WHT.png'), -webkit-gradient(linear, left top, right top, color-stop(20%, rgba(0, 165, 189, 1)), color-stop(100%, rgba(185, 192, 10, 1)));
+	/* Chrome,Safari4+ */
+	background-image: url('https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/research-WHT.png'), -webkit-linear-gradient(left, rgba(0, 165, 189, 1) 20%, rgba(185, 192, 10, 1) 100%);
+	/* Chrome10+,Safari5.1+ */
+	/* Opera 11.10+ */
+	/* IE10+ */
+	background-image: url('https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/research-WHT.png'), linear-gradient(to right, rgba(0, 165, 189, 1) 20%, rgba(185, 192, 10, 1) 100%);
+	/* W3C */
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#00a5bd', endColorstr='#b9c00a', GradientType=1);
+	/* IE6-9 */
+	position: relative;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+main section:last-of-type {
+	padding-bottom: 3rem;
+}
+.main-header {
+	height: auto;
+	background: none;
+}
+.single-post .main-header .header-group {
+	height: 400px;
+}
+.single-post sub.sub-header {
+	position: absolute;
+	bottom: 0;
+}
+.xxxmain-header {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d0d0d0+0,efefef+100 */
+	background: rgb(208, 208, 208);
+	/* Old browsers */
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(208, 208, 208, 1)), color-stop(100%, rgba(239, 239, 239, 1)));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, rgba(208, 208, 208, 1) 0%, rgba(239, 239, 239, 1) 100%);
+	/* Chrome10+,Safari5.1+ */
+	/* Opera 11.10+ */
+	/* IE10+ */
+	background: linear-gradient(to right, rgba(208, 208, 208, 1) 0%, rgba(239, 239, 239, 1) 100%);
+	/* W3C */
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#d0d0d0', endColorstr='#efefef', GradientType=1);
+	/* IE6-9 */
+}
+
+/* ----- Site header ----- */
+
+.page-grand-challenges main {
+	background: none;
+}
+.main-header .header-group {
+	position: relative;
+	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+	text-align: right;
+	padding: 1.5rem 2rem;
+}
+.main-header sub,
+.main-header sup {
+	display: inline-block;
+	font-size: .8rem;
+	text-transform: none;
+	color: #363636;
+	font-weight: 400;
+}
+.main-header sup a {
+	color: #363636;
+	text-decoration: none;
+	border-bottom: none;
+}
+.page-child .main-header sub:before {
+	content: " / ";
+}
+main section {
+	background: #fff;
+}
+.home main section:first-child,
+.section-research-initiatives main section:first-child {
+	background: none;
+}
+
+/* ---------- Individual grand challenges pages ---------- */
+
+
+/* Main Grand Challenges page */
+
+.page-grand-challenges #jacket {
+	background: url('https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/research-G.png') no-repeat top right;
+}
+.page-grand-challenges main {
+	background: url('https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/research-G2.png');
+	background-position: top right;
+	background-attachment: fixed;
+}
+.page-grand-challenges main section:first-child h1 {
+	font-weight: 700;
+	color: #000;
+	margin-top: 8rem;
+	font-size: 5rem;
+	margin-bottom: 3rem;
+}
+.page-grand-challenges .main-header {
+	margin-bottom: 0;
+}
+.page-grand-challenges main section:first-child h1 + h2 {
+	color: #000;
+	padding-top: 0;
+	line-height: 1.2;
+}
+.page-grand-challenges main section:first-child {
+	padding-bottom: 2rem;
+}
+.page-grand-challenges main section:first-child p,
+.page-grand-challenges main section:first-child h3,
+.page-grand-challenges main section:first-child h4,
+.page-grand-challenges main section:first-child ul li {
+	color: #000;
+}
+.page-grand-challenges main section:first-child p {
+	font-size: 1.2rem;
+}
+.gc-area-wrap-halves:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.gc-area {
+	float: left;
+	width: 50%;
+	padding: 2rem;
+	box-sizing: border-box;
+}
+.gc-area-wrap-halves {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	min-height: 400px;
+}
+.gc-area h3,
+.gc-area p,
+.gc-area ul li {
+	color: #fff !important;
+	text-shadow: 1px 1px rgba(0, 0, 0, .3);
+}
+.gc-area h3 {
+	font-size: 2rem;
+}
+.gc-area p+h3 {
+	padding-top: 0;
+}
+.gc-area p {
+	font-size: 1.5rem;
+}
+.gc-area-wrap-halves > p {
+	display: none;
+}
+.gc-area a {
+	border: 1px solid #fff;
+}
+
+/* --- Sustaining Health --- */
+
+.sub-section-sustaining-health #jacket {
+	background: url('https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/sutaining-health-G.png') no-repeat top right;
+}
+.sub-section-sustaining-health main,
+.categorized-sustaining-health main:after,
+.sub-section-sustaining-health .areas-tabbed-content,
+.gc-area.sustaining-health {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fb5272+20,f8be01+100 */
+	background: #fb5272;
+	/* Old browsers */
+	background: -moz-linear-gradient(left, #fb5272 20%, #f8be01 100%);
+	/* FF3.6+ */
+	background-image: url('https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/sutaining-health-WHT.png'), -webkit-gradient(linear, left top, right top, color-stop(20%, #fb5272), color-stop(100%, #f8be01));
+	/* Chrome,Safari4+ */
+	background-image: url('https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/sutaining-health-WHT.png'), -webkit-linear-gradient(left, #fb5272 20%, #f8be01 100%);
+	/* Chrome10+,Safari5.1+ */
+	/* Opera 11.10+ */
+	/* IE10+ */
+	background-image: url('https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/sutaining-health-WHT.png'), linear-gradient(to right, #fb5272 20%, #f8be01 100%);
+	/* W3C */
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#fb5272', endColorstr='#f8be01', GradientType=1);
+	/* IE6-9 */
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding-bottom: 3rem;
+	background-attachment: fixed;
+}
+.gc-area.sustaining-health {
+	background-attachment: scroll;
+}
+.home main section:first-child h1,
+.sub-section-sustaining-health main section:first-child h1 {
+	font-weight: 700;
+	color: #fff;
+	margin-top: 5rem;
+}
+.home main section:first-child h1 + h2,
+.sub-section-sustaining-health main section:first-child h1 + h2 {
+	color: #fff;
+	padding-top: 1rem;
+	line-height: 1.2;
+}
+.home main section:first-child,
+.sub-section-sustaining-health main section:first-child {
+	padding-bottom: 2rem;
+}
+.home main section:first-child p,
+.home main section:first-child h3,
+.home main section:first-child h4,
+.home main section:first-child a,
+.home main section:first-child ul li,
+.sub-section-sustaining-health main section:first-child p,
+.sub-section-sustaining-health main section:first-child h3,
+.sub-section-sustaining-health main section:first-child h4,
+.sub-section-sustaining-health main section:first-child a,
+.sub-section-sustaining-health main section:first-child ul li {
+	color: #fff;
+	border-color: #fff;
+}
+.home main section:first-child p,
+.sub-section-sustaining-health main section:first-child p {
+	font-size: 1.2rem;
+}
+.home main section:first-child p,
+.home main section:first-child h3,
+.home main section:first-child h4 .sub-section-sustaining-health main section:first-child p,
+.sub-section-sustaining-health main section:first-child h3,
+.sub-section-sustaining-health main section:first-child h4 {
+	text-shadow: 1px 1px rgba(0, 0, 0, .25);
+}
+.sub-section-sustaining-health main section:first-child a:hover {
+	color: #eff0f1;
+	border-color: #eff0f1;
+	border-width: 4px;
+}
+.sub-section-sustaining-health main section h1,
+.sub-section-sustaining-health main section h2,
+.categorized-sustaining-health h2,
+.sub-section-sustaining-health main section h3,
+.sub-section-sustaining-health main section h4 {
+	color: #fb5272;
+}
+.sub-section-sustaining-health main section a,
+.categorized-sustaining-health main a {
+	border-color: #fb5272;
+}
+.sub-section-sustaining-health main section a:hover,
+.categorized-sustaining-health main a:hover {
+	color: #fb5272;
+}
+body.sub-section-sustaining-health.section-research-initiatives main section:first-child p:first-of-type:before {
+	border-top: 1px solid #fb5272;
+}
+
+/* --- Sustainable Resources --- */
+
+.sub-section-sustainable-resources #jacket {
+	background: url('https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/sutainable-resources-G.png') no-repeat top right;
+}
+.sub-section-sustainable-resources main,
+.categorized-sustainable-resources main:after,
+.sub-section-sustainable-resources .areas-tabbed-content,
+.gc-area.sustainable-resources {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ff5b35+10,7aa1c5+100 */
+	background: #ff5b35;
+	/* Old browsers */
+	/* FF3.6+ */
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(10%, #ff5b35), color-stop(100%, #7aa1c5));
+	/* Chrome,Safari4+ */
+	background-image: url('https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/sutainable-resources-WHT.png'), -webkit-linear-gradient(left, #ff5b35 10%, #7aa1c5 100%);
+	/* Chrome10+,Safari5.1+ */
+	/* Opera 11.10+ */
+	/* IE10+ */
+	background-image: url('https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/sutainable-resources-WHT.png'), linear-gradient(to right, #ff5b35 10%, #7aa1c5 100%);
+	/* W3C */
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff5b35', endColorstr='#7aa1c5', GradientType=1);
+	/* IE6-9 */
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding-bottom: 3rem;
+	background-attachment: fixed;
+}
+.gc-area.sustainable-resources {
+	background-attachment: scroll;
+}
+.sub-section-sustainable-resources .main-header {
+	background: none;
+}
+.sub-section-sustainable-resources main section:first-child {
+	padding-bottom: 2rem;
+}
+.sub-section-sustainable-resources main section:first-child h1 {
+	font-weight: 700;
+	color: #fff;
+	margin-top: 5rem;
+}
+.sub-section-sustainable-resources main section:first-child h1 + h2 {
+	color: #fff;
+	padding-top: 0;
+	line-height: 1.2;
+}
+.sub-section-sustainable-resources main section:first-child p,
+.sub-section-sustainable-resources main section:first-child h3,
+.sub-section-sustainable-resources main section:first-child h4,
+.sub-section-sustainable-resources main section:first-child a,
+.sub-section-sustainable-resources main section:first-child ul li {
+	color: #fff;
+	border-color: #fff;
+}
+.sub-section-sustainable-resources main section:first-child p {
+	font-size: 1.2rem;
+}
+.sub-section-sustainable-resources main section:first-child p,
+.sub-section-sustainable-resources main section:first-child h3,
+.sub-section-sustainable-resources main section:first-child h4 {
+	text-shadow: 1px 1px rgba(0, 0, 0, .25);
+}
+.sub-section-sustainable-resources main section:first-child a:hover {
+	color: #eff0f1;
+	border-color: #eff0f1;
+	border-width: 4px;
+}
+.sub-section-sustainable-resources main section h1,
+.sub-section-sustainable-resources main section h2,
+.categorized-sustainable-resources h2,
+.sub-section-sustainable-resources main section h3,
+.sub-section-sustainable-resources main section h4 {
+	color: #ff5b35;
+}
+.sub-section-sustainable-resources main section a,
+.categorized-sustainable-resources main a {
+	border-color: #ff5b35;
+}
+.sub-section-sustainable-resources main section a:hover,
+.categorized-sustainable-resources main a:hover {
+	color: #ff5b35;
+}
+body.sub-section-sustainable-resources.section-research-initiatives main section:first-child p:first-of-type:before {
+	border-top: 1px solid #ff5b35;
+}
+
+/* --- Opportunity and Equity --- */
+
+.sub-section-opportunity-equity #jacket {
+	background: url('https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/opportunity-equity-G.png') no-repeat top right;
+}
+.sub-section-opportunity-equity main,
+.categorized-opportunity-equity main,
+.sub-section-opportunity-equity .areas-tabbed-content,
+.gc-area.opportunity-equity {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b9c00a+20,ff5b35+100 */
+	background: #b9c00a;
+	/* Old browsers */
+	/* FF3.6+ */
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(20%, #b9c00a), color-stop(100%, #ff5b35));
+	/* Chrome,Safari4+ */
+	background-image: url('https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/opportunity-equity-WHT.png'), -webkit-linear-gradient(left, #b9c00a 20%, #ff5b35 100%);
+	/* Chrome10+,Safari5.1+ */
+	/* Opera 11.10+ */
+	/* IE10+ */
+	background-image: url('https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/opportunity-equity-WHT.png'), linear-gradient(to right, #b9c00a 20%, #ff5b35 100%);
+	/* W3C */
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#b9c00a', endColorstr='#ff5b35', GradientType=1);
+	/* IE6-9 */
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding-bottom: 3rem;
+	background-attachment: fixed;
+}
+.gc-area.opportunity-equity {
+	background-attachment: scroll;
+}
+.sub-section-opportunity-equity .main-header {
+	background: none;
+}
+.sub-section-opportunity-equity main section:first-child {
+	padding-bottom: 2rem;
+}
+.sub-section-opportunity-equity main section:first-child h1 {
+	font-weight: 700;
+	color: #fff;
+	margin-top: 5rem;
+}
+.sub-section-opportunity-equity main section:first-child h1 + h2 {
+	color: #fff;
+	padding-top: 0;
+	line-height: 1.2;
+}
+.sub-section-opportunity-equity main section:first-child p,
+.sub-section-opportunity-equity main section:first-child h3,
+.sub-section-opportunity-equity main section:first-child h4,
+.sub-section-opportunity-equity main section:first-child a,
+.sub-section-opportunity-equity main section:first-child ul li {
+	color: #fff;
+	border-color: #fff;
+}
+.sub-section-opportunity-equity main section:first-child p {
+	font-size: 1.2rem;
+}
+.sub-section-opportunity-equity main section:first-child p,
+.sub-section-opportunity-equity main section:first-child h3,
+.sub-section-opportunity-equity main section:first-child h4 {
+	text-shadow: 1px 1px rgba(0, 0, 0, .25);
+}
+.sub-section-opportunity-equity main section:first-child a:hover {
+	color: #eff0f1;
+	border-color: #eff0f1;
+	border-width: 4px;
+}
+.sub-section-opportunity-equity main section h1,
+.sub-section-opportunity-equity main section h2,
+.categorized-opportunity-equity h2,
+.sub-section-opportunity-equity main section h3,
+.sub-section-opportunity-equity main section h4 {
+	color: #b9c00a;
+}
+.sub-section-opportunity-equity main section a,
+.categorized-opportunity-equity main a {
+	border-color: #b9c00a;
+}
+.sub-section-opportunity-equity main section a:hover,
+.categorized-opportunity-equity main a:hover {
+	color: #b9c00a;
+}
+body.sub-section-opportunity-equity.section-research-initiatives main section:first-child p:first-of-type:before {
+	border-top: 1px solid #b9c00a;
+}
+
+/* --- Smart systems -- */
+
+.sub-section-smart-systems #jacket {
+	background: url('https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/smart-systems-G.png') no-repeat top right;
+}
+.sub-section-smart-systems main,
+.categorized-smart-systems main:after,
+.sub-section-smart-systems .areas-tabbed-content,
+.gc-area.smart-systems {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#03c3b2+21,fb5272+100 */
+	background: #03c3b2;
+	/* Old browsers */
+	/* FF3.6+ */
+	background-image: url('https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/smart-systems-WHT.png'), -webkit-gradient(linear, left top, right top, color-stop(21%, #03c3b2), color-stop(100%, #fb5272));
+	/* Chrome,Safari4+ */
+	background-image: url('https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/smart-systems-WHT.png'), -webkit-linear-gradient(left, #03c3b2 21%, #fb5272 100%);
+	/* Chrome10+,Safari5.1+ */
+	/* Opera 11.10+ */
+	/* IE10+ */
+	background-image: url('https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/smart-systems-WHT.png'), linear-gradient(to right, #03c3b2 21%, #fb5272 100%);
+	/* W3C */
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#03c3b2', endColorstr='#fb5272', GradientType=1);
+	/* IE6-9 */
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding-bottom: 3rem;
+	background-attachment: fixed;
+}
+.gc-area.smart-systems {
+	background-attachment: scroll;
+}
+.sub-section-smart-systems .main-header {
+	background: none;
+}
+.sub-section-smart-systems main section:first-child {
+	padding-bottom: 2rem;
+}
+.sub-section-smart-systems main section:first-child h1 {
+	font-weight: 700;
+	color: #fff;
+	margin-top: 5rem;
+}
+.sub-section-smart-systems main section:first-child h1 + h2 {
+	color: #fff;
+	padding-top: 0;
+	line-height: 1.2;
+}
+.sub-section-smart-systems main section:first-child p,
+.sub-section-smart-systems main section:first-child h3,
+.sub-section-smart-systems main section:first-child h4,
+.sub-section-smart-systems main section:first-child a,
+.sub-section-smart-systems main section:first-child ul li {
+	color: #fff;
+	border-color: #fff;
+}
+.sub-section-smart-systems main section:first-child p {
+	font-size: 1.2rem;
+}
+.sub-section-smart-systems main section:first-child p,
+.sub-section-smart-systems main section:first-child h3,
+.sub-section-smart-systems main section:first-child h4 {
+	text-shadow: 1px 1px rgba(0, 0, 0, .25);
+}
+.sub-section-smart-systems main section:first-child a:hover {
+	color: #eff0f1;
+	border-color: #eff0f1;
+	border-width: 4px;
+}
+.sub-section-smart-systems main section h1,
+.sub-section-smart-systems main section h2,
+.categorized-smart-systems h2,
+.sub-section-smart-systems main section h3,
+.sub-section-smart-systems main section h4 {
+	color: #03c3b2;
+}
+.sub-section-smart-systems main section a,
+.categorized-smart-systems main a {
+	border-color: #03c3b2;
+}
+.sub-section-smart-systems main section a:hover,
+.categorized-smart-systems main a:hover {
+	color: #03c3b2;
+}
+body.sub-section-smart-systems.section-research-initiatives main section:first-child p:first-of-type:before {
+	border-top: 1px solid #03c3b2;
+}
+
+/* --- National Security --- */
+
+.sub-section-national-security #jacket {
+	background: url('https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/smart-systems-G.png') no-repeat top right;
+}
+.sub-section-national-security main,
+.categorized-national-security main:after,
+.sub-section-national-security .areas-tabbed-content,
+.gc-area.national-security {
+	background: #f9ac0b;
+	/* Old browsers */
+	/* FF3.6+ */
+	background-image: url('https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/national-security-WHT.png'), -webkit-gradient(linear, left top, right top, color-stop(0%, #f9ac0b), color-stop(100%, #ff5b35));
+	/* Chrome,Safari4+ */
+	background-image: url('https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/national-security-WHT.png'), -webkit-linear-gradient(left, #f9ac0b 0%, #ff5b35 100%);
+	/* Chrome10+,Safari5.1+ */
+	/* Opera 11.10+ */
+	/* IE10+ */
+	background-image: url('https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/national-security-WHT.png'), linear-gradient(to right, #f9ac0b 0%, #ff5b35 100%);
+	/* W3C */
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#f9ac0b', endColorstr='#ff5b35', GradientType=1);
+	/* IE6-9 */
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding-bottom: 3rem;
+	background-attachment: fixed;
+}
+.gc-area.national-security {
+	background-attachment: scroll;
+}
+.sub-section-national-security .main-header {
+	background: none;
+}
+.sub-section-national-security main section:first-child {
+	padding-bottom: 2rem;
+}
+.sub-section-national-security main section:first-child h1 {
+	font-weight: 700;
+	color: #fff;
+	margin-top: 5rem;
+}
+.sub-section-national-security main section:first-child h1 + h2 {
+	color: #fff;
+	padding-top: 0;
+	line-height: 1.2;
+}
+.sub-section-national-security main section:first-child p,
+.sub-section-national-security main section:first-child h3,
+.sub-section-national-security main section:first-child h4,
+.sub-section-national-security main section:first-child a,
+.sub-section-national-security main section:first-child ul li {
+	color: #fff;
+	border-color: #fff;
+}
+.sub-section-national-security main section:first-child p {
+	font-size: 1.2rem;
+}
+.sub-section-national-security main section:first-child p,
+.sub-section-national-security main section:first-child h3,
+.sub-section-national-security main section:first-child h4 {
+	text-shadow: 1px 1px rgba(0, 0, 0, .25);
+}
+.sub-section-national-security main section:first-child a:hover {
+	color: #eff0f1;
+	border-color: #eff0f1;
+	border-width: 4px;
+}
+.sub-section-national-security main section h1,
+.sub-section-national-security main section h2,
+.categorized-national-security h2,
+.sub-section-national-security main section h3,
+.sub-section-national-security main section h4 {
+	color: #f9ac0b;
+}
+.sub-section-national-security main section a {
+	border-color: #f9ac0b;
+}
+.sub-section-national-security main section a:hover {
+	color: #f9ac0b;
+}
+body.sub-section-national-security.section-research-initiatives main section:first-child p:first-of-type:before {
+	border-top: 1px solid #f9ac0b;
+}
+
+/* ----- Sub pages in Grand Challenge areas ----- */
+
+body[class*='sub-section-'].section-research-initiatives main section {
+	padding-bottom: 3rem;
+}
+body[class*='sub-sub-section-'].section-research-initiatives main section {
+	padding-bottom: 0;
+}
+body[class*='sub-sub-section-'].section-research-initiatives main section:first-child .one {
+	background: #fff;
+	margin-top: 10rem;
+	border-top: .5rem solid;
+	padding-bottom: 3rem;
+}
+body[class*='sub-sub-section-'].section-research-initiatives main section:first-child .two {
+	background: #fff;
+	margin-top: 20rem;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	top: 0;
+}
+body[class*='sub-sub-section-'].section-research-initiatives main section:first-child p,
+body[class*='sub-sub-section-'].section-research-initiatives main section:first-child h1,
+body[class*='sub-sub-section-'].section-research-initiatives main section:first-child h2,
+body[class*='sub-sub-section-'].section-research-initiatives main section:first-child h3,
+body[class*='sub-sub-section-'].section-research-initiatives main section:first-child h4,
+body[class*='sub-sub-section-'].section-research-initiatives main section:first-child a,
+body[class*='sub-sub-section-'].section-research-initiatives main section:first-child ul li {
+	color: black;
+	border-color: #fff;
+}
+body[class*='sub-sub-section-'].section-research-initiatives main section:first-child h1 {
+	margin-top: 1rem;
+	font-weight: 400;
+}
+body[class*='sub-sub-section-'].section-research-initiatives main section:first-child h1+h2 {
+	margin-top: 2rem;
+}
+body[class*='sub-sub-section-'].section-research-initiatives main section:first-child p:first-of-type {
+	position: relative;
+	padding-top: 5rem;
+}
+body[class*='sub-sub-section-'].section-research-initiatives main section:first-child p:first-of-type:before {
+	content: "";
+	position: absolute;
+	top: 4rem;
+	width: 50%;
+	display: block;
+}
+body[class*='sub-sub-section-'].section-research-initiatives main section:first-child p {
+	text-shadow: none;
+	font-size: 1.2em;
+}
+body[class*='sub-sub-section-'].section-research-initiatives main section:first-child h1,
+body[class*='sub-sub-section-'].section-research-initiatives main section:first-child h2,
+body[class*='sub-sub-section-'].section-research-initiatives main section:first-child h3,
+body[class*='sub-sub-section-'].section-research-initiatives main section:first-child h4 {
+	text-shadow: none;
+}
+body[class*='sub-sub-section-'].section-research-initiatives main .main-header .header-group {
+	text-align: left;
+}
+main section.partnerships {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&amp;0.8+0,1+5 */
+	/* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.95)), color-stop(5%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(255, 255, 255, 1)));
+	/* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.85) 0%, rgba(255, 255, 255, 1) 5%, rgba(255, 255, 255, 1) 100%);
+	/* Chrome10+,Safari5.1+ */
+	/* Opera 11.10+ */
+	/* IE10+ */
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 1) 5%, rgba(255, 255, 255, 1) 100%);
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 1) 5%, rgba(255, 255, 255, 1) 100%);
+	/* W3C */
+	filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ccffffff', endColorstr='#ffffff', GradientType=0);
+	/* IE6-9 */
+	margin-top: .5rem;
+}
+
+/* background position override for Main GC page*/
+
+.gc-area.sustaining-health,
+.gc-area.sustainable-resources,
+.gc-area.opportunity-equity,
+.gc-area.smart-systems,
+.gc-area.national-security {
+	background-position: bottom right;
+}
+
+/* ------ - ----- */
+
+
+/* ----- Posts ----- */
+
+.single-post main:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 1rem;
+	visibility: visible;
+	padding: 0;
+}
+.article-header hgroup.source,
+.article-header .hgroup.source {
+	display: none;
+}
+.single-post .main-header {
+	background: #fff;
+	width: 50%;
+	float: left;
+}
+.single-post .article-body {
+	margin-top: 3rem;
+}
+.single-post .featured-wrap {
+	width: 50%;
+	display: block;
+	height: 400px;
+	float: right;
+	position: relative;
+}
+.single-post .featured-wrap .g-b {
+	z-index: 1000;
+	position: relative;
+	display: block;
+	height: 100%;
+}
+.single-post .featured-wrap .featured-image {
+	z-index: 0;
+	position: absolute;
+}
+.single-post sup.sup-header,
+.single-post sub.sub-header {
+	display: block;
+	text-align: left;
+}
+.single-post sub.sub-header {
+	font-size: 4rem;
+	line-height: 1.1;
+	font-weight: 300;
+	color: #1a1a1a;
+	margin-top: 4rem;
+}
+.single-post h1.article-title {
+	display: none;
+}
+
+/* ------ ------ */
+
+#binder {
+	/*border-right: solid 1px #dcdcdc;*/
+	background-color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #1a1a1a;
+	font-weight: 300;
+}
+p,
+main ul li,
+main ol li {
+	font-weight: 300;
+	font-size: 1.1rem;
+	line-height: 1.5em;
+	color: #363636;
+}
+h1 {
+	font-size: 4rem;
+	line-height: 1;
+	padding: 0;
+}
+h2 {
+	color: #008dc2;
+	font-size: 2.4rem;
+	line-height: 1.25;
+	padding: .75rem 0 1.5rem;
+}
+h1+h2+p {
+	padding-top: 2em;
+}
+h3 {
+	font-size: 1.7rem;
+	font-weight: 800;
+	padding-bottom: .5em;
+}
+h4 {
+	font-size: 1.7rem;
+	font-weight: 300;
+	color: #008dc2;
+}
+h5 {
+	font-size: 1.5em;
+	font-weight: 300;
+	color: #1a1a1a;
+}
+h6 {
+	font-weight: 800;
+	font-size: 1em;
+	line-height: 1.5em;
+	color: #1a1a1a;
+}
+p+h3,
+ul+h3 {
+	padding-top: 2.5em;
+}
+p+h2,
+ul+h2 {
+	padding-top: 2.5em;
+}
+h2+h3 {
+	padding-top: 2.5em;
+}
+h4+p {
+	padding-top: .25rem;
+}
+main a {
+	color: #000;
+	text-decoration: none;
+	border-bottom: solid 1px #008dc2;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+}
+main a.gc-area {
+	border: none;
+}
+main a:hover {
+	color: #008dc2;
+	text-decoration: none;
+}
+section.lined {
+	border-top: 1px solid #efefef;
+}
+
+/* slider work */
+
+#tabs > ul {}
+ul.tabs {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul.tabs li {
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+ul.tabs li.current {
+	background: #ededed;
+	color: #222;
+}
+.tab-content {
+	display: none;
+	background: #ededed;
+	padding: 15px;
+}
+.tab-content.current {
+	display: inherit;
+}
+#tabs > ul,
+#tabs2 > ul{
+	list-style: none;
+	padding: 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+#tabs > ul li,
+#tabs2 > ul li{
+	font-size: .8rem;
+	-webkit-flex: 1;
+	-ms-flex: 1;
+	-webkit-box-flex: 1;
+	flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+	text-align: center;
+	background: rgba(255, 255, 255, .75);
+	margin-right: 2px;
+	-webkit-transition: background .3s ease;
+	transition: background .3s ease;
+}
+#tabs > ul li:last-child,
+#tabs2 > ul li:last-child{
+	margin-right: 0;
+}
+#tabs > ul > li > a,
+#tabs2 > ul > li > a{
+	border-bottom: none;
+	color: #000;
+	font-weight: 400;
+	display: block;
+	min-height: 3rem;
+	padding: .3rem 0 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	flex-direction: column;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	-webkit-box-pack: center;
+	justify-content: center;
+}
+.ui-tabs-panel {
+	background: #fff;
+	padding: 2rem;
+}
+.ui-tabs-panel:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.single-post .header-group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+#tabs > ul li.ui-state-active,
+#tabs > ul li:hover,
+#tabs2 > ul li.ui-state-active,
+#tabs2 > ul li:hover{
+	background: rgba(255, 255, 255, 1);
+}
+section.areas-tabbed-content {
+	padding-bottom: 0 !important;
+}
+.ui-tabs-panel p,
+.ui-tabs-panel ul li {
+	font-size: 1rem;
+}
+.ui-tabs-panel h3 {
+	font-size: 1.3rem;
+	font-weight: 300;
+}
+.content-item-byline {
+	display: none;
+}
+ul.wsuwp-content-syndicate-list {
+	list-style: none;
+	padding: 0;
+}
+ul.wsuwp-content-syndicate-list li,
+.area-content {
+	padding: 0 2rem 0 0;
+	box-sizing: border-box;
+}
+.content-item-excerpt {
+	display: none;
+}
+.area-content {
+	width: 33%;
+	float: left;
+}
+.wsuwp-content-syndicate-wrapper {
+	width: 66%;
+	float: left;
+	padding-top: .5rem;
+}
+.home .wsuwp-content-syndicate-wrapper {
+	width: 66%;
+	float: left;
+	padding-top: 0;
+}
+span.content-item-thumbnail {
+	display: block;
+	width: 100%;
+}
+span.content-item-title {
+	font-size: 1rem;
+	line-height: 1.5;
+	font-weight: 300;
+	margin-top: .25rem;
+	display: block;
+}
+.wsuwp-content-syndicate-item {
+	width: 50%;
+	float: left;
+}
+.blurb {
+	padding-left: 1em;
+	border-left: solid 1px #d7dadb;
+	margin-left: .5em;
+}
+.single-post .header-wrap {
+	height: auto;
+	margin-top: 1rem;
+}
+.single-post .main-header sup a:hover {
+	color: #008dc2;
+}
+.single-post .main-header sup span {
+	text-align: right;
+}
+
+/*Homepage*/
+
+section.news-list {
+	background: none;
+}
+.news-list header {
+	padding: 4rem 2rem 2rem;
+}
+.news-list header h2 {
+	padding: 0;
+	color: #fff;
+}
+body[class*='sub-sub-section-'] .wsuwp-content-syndicate-wrapper,
+.home .wsuwp-content-syndicate-wrapper {
+	width: 100%;
+}
+body[class*='sub-sub-section-'] .wsuwp-content-syndicate-item,
+.home .wsuwp-content-syndicate-item {
+	width: 33.3333%;
+	padding: 0 .75rem 1.5rem;
+}
+body[class*='sub-sub-section-'] ul.wsuwp-content-syndicate-list,
+.home ul.wsuwp-content-syndicate-list {
+	margin: 0;
+}
+body[class*='sub-sub-section-'] .wsuwp-content-syndicate-wrapper ul {
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	flex-direction: row;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.home .main-header {
+	margin-bottom: 0;
+}
+.home h1 {
+	margin-top: 5rem;
+}
+.home section {
+	padding-bottom: 2rem;
+}
+.home ul.wsuwp-content-syndicate-list {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.home .home-features .wsuwp-content-syndicate-item:first-child {
+	width: 100%;
+}
+.home .home-features .wsuwp-content-syndicate-item:first-child img {
+	width: 66.6666%;
+	float: right;
+	box-sizing: border-box;
+	padding-left: .5rem;
+}
+.home .home-features .wsuwp-content-syndicate-item:first-child span.content-item-title {
+	font-size: 2.5rem;
+	line-height: 1.1;
+	margin-top: 5rem;
+}
+.home .home-features .wsuwp-content-syndicate-item:first-child span.content-item-title a {
+	border-bottom: none;
+}
+.home .home-features .wsuwp-content-syndicate-item:first-child span.content-item-title,
+.home .home-features .wsuwp-content-syndicate-item:first-child .content-item-excerpt {
+	padding-right: 2rem;
+	display: block;
+}
+.home .home-features .wsuwp-content-syndicate-item:first-child .content-item-excerpt {
+	margin-top: 1rem;
+}
+.home .home-features .wsuwp-content-syndicate-item:first-child .content-item-excerpt p {
+	display: none;
+}
+.home .home-features .wsuwp-content-syndicate-item:first-child .content-item-excerpt p:first-child {
+	display: block;
+}
+.home .home-features .wsuwp-content-syndicate-item:first-child .content-item-excerpt .content-item-read-story {
+	font-size: 1rem;
+}
+
+/* Home news section */
+
+.home .news-list .wsuwp-content-syndicate-item,
+.outside-news-item,
+.award-item {
+	width: 75%;
+	position: relative;
+	padding: 1rem 0;
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+.home .news-list .wsuwp-content-syndicate-item:first-child {
+	margin-top: 2rem;
+	padding-top: 0;
+}
+.home .news-list .wsuwp-content-syndicate-item:last-child,
+.outside-news-item:last-child,
+.award-item:last-child {
+	border: none;
+}
+.home .news-list .wsuwp-content-syndicate-item span.content-item-title,
+.outside-title {
+	font-size: 1.5rem;
+	font-weight: 300;
+	line-height: 1.5;
+}
+.home .news-list .wsuwp-content-syndicate-item span.content-item-title,
+.home .news-list .wsuwp-content-syndicate-item .content-item-excerpt,
+.outside-publication,
+.outside-title,
+.outside-subtitle {
+	width: 75%;
+	margin-left: 25%;
+	display: block;
+}
+.home .news-list .wsuwp-content-syndicate-item .content-item-byline {
+	display: block;
+}
+.home .news-list .wsuwp-content-syndicate-item .content-item-byline-author {
+	display: none;
+}
+.home .news-list .wsuwp-content-syndicate-item .content-item-byline-date,
+.outside-date {
+	position: absolute;
+	top: 1.5rem;
+	width: 25%;
+	font-size: .8rem;
+	text-align: left;
+	box-sizing: border-box;
+	padding-right: 2.5rem;
+	font-weight: 300;
+}
+.outside-date {
+	top: 1rem;
+}
+.home .news-list .wsuwp-content-syndicate-item:first-child .content-item-byline-date {
+	top: .5rem;
+}
+.home .news-list .wsuwp-content-syndicate-item .content-item-read-story {
+	display: none;
+}
+.outside-publication {
+	font-weight: 300;
+}
+.award-amount,
+.award-title,
+.award-person,
+.award-deptartment,
+.award-from {
+	padding-right: 1rem;
+	margin-right: 1rem;
+	border-right: 1px solid rgba(0, 0, 0, .25);
+}
+.award-amount {
+	font-size: 1.25rem;
+	color: #981e32;
+	margin-right: 0;
+	border: none;
+}
+.award-person {
+	font-weight: 700;
+}
+.award-from {
+	border: none;
+}
+/************** SVG graphs **************/
+.svg-graph text {
+	fill: #fff;
+}
+/*.svg-graph.animate rect {
+	animation-duration: 3s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+	from {
+		height: 0;
+	}
+	to {
+		height: -100%;
+	}
+}*/
+@media only screen and (max-width: 700px) {
+	body[class*='sub-sub-section-'] .wsuwp-content-syndicate-item,
+	.home .wsuwp-content-syndicate-item,
+	.award-item,
+	.outside-news-item{
+		width: 100%;
+	}
+	.page-grand-challenges main section:first-child h1 {
+		font-size: 3rem;
+	}
+	h1 {
+		font-size: 3rem;
+	}
+	h2 {
+		font-size: 2rem;
+	}
+	.gc-area-wrap-halves {
+		display: block;
+	}
+	.gc-area {
+		width: 100%;
+	}
+	.area-content {
+		width: 100%;
+	}
+	.wsuwp-content-syndicate-item {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 791px) {
+	.single-post .featured-wrap {
+		width: 100%;
+	}
+	.single-post .main-header {
+		width: 100%;
+	}
+	.single-post sub.sub-header {
+		position: relative;
+		bottom: 0;
+		height: 3.7rem;
+	}
+	.single-post .main-header .header-group {
+		height: 14em;
+	}
+}
+@media screen and (min-width: 491px) and (max-width: 700px) {
+	.single-post sub.sub-header {
+		font-size: 3.5rem;
+	}
+}
+@media screen and (max-width: 490px) {
+	.single-post sub.sub-header {
+		font-size: 2.8rem;
+	}
+}
