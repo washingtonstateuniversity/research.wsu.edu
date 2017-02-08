@@ -1221,6 +1221,12 @@ body[class*='sub-sub-section-'] .wsuwp-content-syndicate-wrapper ul {
 	border: none;
 }
 /************** SVG graphs **************/
+svg.svg-graph {
+	width:100%;
+	height:100%;
+	overflow: visible;
+	display: block;
+}
 .svg-graph text {
 	fill: #fff;
 }
