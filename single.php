@@ -15,7 +15,7 @@ if ( spine_has_background_image() ) {
 		<?php get_template_part( 'parts/headers' ); ?>
 
 		<?php
-		if ( function_exists( 'wsuwp_uc_get_object_type_slugs' ) && in_array( get_post_type(), wsuwp_uc_get_object_type_slugs() ) ) {
+		if ( function_exists( 'wsuwp_uc_get_object_type_slugs' ) && in_array( get_post_type(), wsuwp_uc_get_object_type_slugs(), true ) ) {
 			echo '</div>'; // close header-wrap
 			if ( 'wsuwp_uc_person' === get_post_type() ) {
 				get_template_part( 'parts/single-layout', 'wsuwp_uc_person' );
@@ -24,7 +24,7 @@ if ( spine_has_background_image() ) {
 			}
 		} else {
 			if ( spine_has_featured_image() ) {
-				get_template_part('parts/featured-images');
+				get_template_part( 'parts/featured-images' );
 			}
 
 			echo '</div>'; // close header-wrap

@@ -1,15 +1,3 @@
-/*
-Theme Name: WSU Research
-Theme URI: https://web.wsu.edu/
-Author: WSU University Communications
-Author URI: https://web.wsu.edu/
-Description: A child theme of the WSU Web Communications Spine template.
-Template: spine
-Version: 0.2.21
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-*/
-
 html {
 	background-color: #eff0f1;
 }
@@ -21,7 +9,6 @@ html {
 main,
 .home .areas-tabbed-content {
 	background: rgb(0, 165, 189);
-	background-image: url(https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/research-WHT.png), -webkit-linear-gradient(left, rgba(0, 165, 189, 1) 20%, rgba(185, 192, 10, 1) 100%);
 	background-image: url(https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/research-WHT.png), linear-gradient(to right, rgba(0, 165, 189, 1) 20%, rgba(185, 192, 10, 1) 100%);
 	position: relative;
 	background-attachment: fixed;
@@ -49,7 +36,6 @@ main section:last-of-type {
 
 .xxxmain-header {
 	background: rgb(208, 208, 208);
-	background: -webkit-linear-gradient(left, rgba(208, 208, 208, 1) 0%, rgba(239, 239, 239, 1) 100%);
 	background: linear-gradient(to right, rgba(208, 208, 208, 1) 0%, rgba(239, 239, 239, 1) 100%);
 }
 
@@ -156,6 +142,7 @@ main section {
 
 .gc-area-wrap-halves {
 	display: -webkit-box;
+	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
 	min-height: 400px;
@@ -198,7 +185,6 @@ main section {
 .sub-section-sustaining-health .areas-tabbed-content,
 .gc-area.sustaining-health {
 	background: #fb5272;
-	background-image: url(https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/sutaining-health-WHT.png), -webkit-linear-gradient(left, #fb5272 20%, #f8be01 100%);
 	background-image: url(https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/sutaining-health-WHT.png), linear-gradient(to right, #fb5272 20%, #f8be01 100%);
 	background-repeat: no-repeat;
 	background-position: top right;
@@ -294,7 +280,6 @@ body.sub-section-sustaining-health.section-research-initiatives main section:fir
 .sub-section-sustainable-resources .areas-tabbed-content,
 .gc-area.sustainable-resources {
 	background: #ff5b35;
-	background-image: url(https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/sutainable-resources-WHT.png), -webkit-linear-gradient(left, #ff5b35 10%, #7aa1c5 100%);
 	background-image: url(https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/sutainable-resources-WHT.png), linear-gradient(to right, #ff5b35 10%, #7aa1c5 100%);
 	background-repeat: no-repeat;
 	background-position: top right;
@@ -383,7 +368,6 @@ body.sub-section-sustainable-resources.section-research-initiatives main section
 .sub-section-opportunity-equity .areas-tabbed-content,
 .gc-area.opportunity-equity {
 	background: #b9c00a;
-	background-image: url(https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/opportunity-equity-WHT.png), -webkit-linear-gradient(left, #b9c00a 20%, #ff5b35 100%);
 	background-image: url(https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/opportunity-equity-WHT.png), linear-gradient(to right, #b9c00a 20%, #ff5b35 100%);
 	background-repeat: no-repeat;
 	background-position: top right;
@@ -472,7 +456,6 @@ body.sub-section-opportunity-equity.section-research-initiatives main section:fi
 .sub-section-smart-systems .areas-tabbed-content,
 .gc-area.smart-systems {
 	background: #03c3b2;
-	background-image: url(https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/smart-systems-WHT.png), -webkit-linear-gradient(left, #03c3b2 21%, #fb5272 100%);
 	background-image: url(https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/smart-systems-WHT.png), linear-gradient(to right, #03c3b2 21%, #fb5272 100%);
 	background-repeat: no-repeat;
 	background-position: top right;
@@ -561,7 +544,6 @@ body.sub-section-smart-systems.section-research-initiatives main section:first-c
 .sub-section-national-security .areas-tabbed-content,
 .gc-area.national-security {
 	background: #f9ac0b;
-	background-image: url(https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/national-security-WHT.png), -webkit-linear-gradient(left, #f9ac0b 0%, #ff5b35 100%);
 	background-image: url(https://research.wsu.edu/wp-content/uploads/sites/618/2015/09/national-security-WHT.png), linear-gradient(to right, #f9ac0b 0%, #ff5b35 100%);
 	background-repeat: no-repeat;
 	background-position: top right;
@@ -713,7 +695,6 @@ body[class*="sub-sub-section-"].section-research-initiatives main .main-header .
 }
 
 main section.partnerships {
-	background: -webkit-linear-gradient(top, rgba(255, 255, 255, .95) 0%, rgba(255, 255, 255, 1) 5%, rgba(255, 255, 255, 1) 100%);
 	background: linear-gradient(to bottom, rgba(255, 255, 255, .95) 0%, rgba(255, 255, 255, 1) 5%, rgba(255, 255, 255, 1) 100%);
 	margin-top: .5rem;
 }
@@ -929,31 +910,19 @@ ul.tabs li.current {
 #tabs2 > ul {
 	list-style: none;
 	padding: 0;
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
 }
 
 #tabs > ul li,
 #tabs2 > ul li {
 	font-size: .8rem;
-	-webkit-box-flex: 1;
-	    -ms-flex: 1;
-	        flex: 1;
-	display: -webkit-box;
-	display: -ms-flexbox;
+	flex: 1;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	flex-direction: column;
+	justify-content: center;
 	text-align: center;
 	background: rgba(255, 255, 255, .75);
 	margin-right: 2px;
-	-webkit-transition: background .3s ease;
 	transition: background .3s ease;
 }
 
@@ -969,16 +938,9 @@ ul.tabs li.current {
 	font-weight: 400;
 	min-height: 3rem;
 	padding: .3rem 0 0;
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: column;
-	        flex-direction: column;
-	-webkit-box-pack: center;
-	    -ms-flex-pack: center;
-	        justify-content: center;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .ui-tabs-panel {
@@ -1123,15 +1085,9 @@ body[class*="sub-sub-section-"] ul.wsuwp-content-syndicate-list,
 }
 
 body[class*="sub-sub-section-"] .wsuwp-content-syndicate-wrapper ul {
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: row;
-	        flex-direction: row;
-	display: -webkit-box;
-	display: -ms-flexbox;
+	flex-direction: row;
 	display: flex;
-	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 .home .main-header {
@@ -1147,11 +1103,8 @@ body[class*="sub-sub-section-"] .wsuwp-content-syndicate-wrapper ul {
 }
 
 .home ul.wsuwp-content-syndicate-list {
-	display: -webkit-box;
-	display: -ms-flexbox;
 	display: flex;
-	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 .home .home-features .wsuwp-content-syndicate-item:first-child {
@@ -1389,4 +1342,3 @@ body[class*="sub-sub-section-"] .wsuwp-content-syndicate-wrapper ul {
 		font-size: 2.8rem;
 	}
 }
-/*# sourceMappingURL=style.css.map */
