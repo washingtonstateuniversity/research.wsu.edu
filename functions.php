@@ -67,56 +67,55 @@ function register_svgs() {
     ob_start();
     ?>
     <!-- project-sponsor-awards is pasted here -->
-<svg class="animate svg-graph project-sponsor-award" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 350">
+<svg class="animate svg-graph" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 270">
 	<defs>
-		<linearGradient id="psa-a" x1="184.75" y1="193.48" x2="184.75" y2="144.78" gradientUnits="userSpaceOnUse">
+		<linearGradient id="spa-a" x1="121.27" y1="104.82" x2="121.27" y2="56.11" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#89b43f"/>
 			<stop offset="1" stop-color="#56aa46"/>
 		</linearGradient>
-		<linearGradient id="psa-b" x1="299.98" y1="190.23" x2="299.98" y2="126.92" xlink:href="#psa-a"/>
-		<linearGradient id="psa-c" x1="184.75" y1="193.48" x2="184.75" y2="304.69" gradientUnits="userSpaceOnUse">
-			<stop offset="0" stop-color="#00a5bd"/><stop offset="1" stop-color="#1b9e85"/>
+		<linearGradient id="spa-b" x1="236.5" y1="101.57" x2="236.5" y2="38.26" xlink:href="#spa-a"/>
+		<linearGradient id="spa-c" x1="121.27" y1="104.82" x2="121.27" y2="216.02" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#00a5bd"/>
+			<stop offset="1" stop-color="#1b9e85"/>
 		</linearGradient>
-		<linearGradient id="psa-d" x1="299.98" y1="190.23" x2="299.98" y2="304.69" xlink:href="#psa-c"/>
-		<linearGradient id="psa-e" x1="60.97" y1="51.26" x2="60.97" y2="36.09" xlink:href="#psa-a"/>
-		<linearGradient id="psa-f" x1="151.64" y1="36.09" x2="151.64" y2="51.26" xlink:href="#psa-c"/>
+		<linearGradient id="spa-d" x1="236.5" y1="101.57" x2="236.5" y2="216.02" xlink:href="#spa-c"/>
+		<linearGradient id="spa-e" x1="71.42" y1="267.58" x2="71.42" y2="252.42" xlink:href="#spa-a"/>
+		<linearGradient id="spa-f" x1="162.08" y1="252.42" x2="162.08" y2="267.58" xlink:href="#spa-c"/>
 	</defs>
-	<line x1="127.13" y1="304.69" x2="357.6" y2="304.69" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<line x1="127.13" y1="304.69" x2="127.13" y2="299.61" style="fill:none;stroke:#000;stroke-miterlimit:10"/>
-	<line x1="242.36" y1="304.69" x2="242.36" y2="299.61" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<line x1="357.6" y1="304.69" x2="357.6" y2="299.61" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<text transform="translate(118.39 308.74)" style="font-size:9px;">0</text>
-	<text transform="translate(72.81 268.15)" style="font-size:9px;">$50,000,000</text>
-	<text transform="translate(67.66 227.56)" style="font-size:9px;">$100,000,000</text>
-	<text transform="translate(67.66 186.98)" style="font-size:9px;">$150,000,000</text>
-	<text transform="translate(67.66 146.39)" style="font-size:9px;">$200,000,000</text>
-	<text transform="translate(67.66 105.81)" style="font-size:9px;">$250,000,000</text>
-	<line x1="127.13" y1="304.69" x2="127.13" y2="101.75" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<line x1="127.13" y1="304.69" x2="132.9" y2="304.69" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<line x1="127.13" y1="264.1" x2="132.9" y2="264.1" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<line x1="127.13" y1="223.51" x2="132.9" y2="223.51" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<line x1="127.13" y1="182.93" x2="132.9" y2="182.93" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<line x1="127.13" y1="142.34" x2="132.9" y2="142.34" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<line x1="127.13" y1="101.75" x2="132.9" y2="101.75" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<g>
-		<rect x="143.27" y="144.78" width="83" height="48.7" style="fill:url(#psa-a)"/>
-		<rect x="258.5" y="126.92" width="83" height="63.31" style="fill:url(#psa-b)"/>
-	</g>
-	<g>
-		<rect x="143.27" y="193.48" width="83" height="111.21" style="fill:url(#psa-c)"/>
-		<rect x="258.5" y="190.23" width="83" height="114.45" style="fill:url(#psa-d)"/>
-	</g>
-	<text transform="translate(166.23 318.84)" style="font-size:8px;">FY 2015</text>
-	<text transform="translate(281.73 318.84)" style="font-size:8px;">FY 2016</text>
-	<text transform="translate(150.55 211.84)" style="font-size:11px;font-family:OpenSans-Semibold;font-weight:700">$137,237,387</text>
-	<text transform="translate(264.55 208.84)" style="font-size:11px;font-family:OpenSans-Semibold;font-weight:700">$140,714,791</text>
-	<text transform="translate(154.29 163.84)" style="font-size:11px;font-family:OpenSans-Semibold;font-weight:700">$59,852,123</text>
-	<text transform="translate(270.83 146.34)" style="font-size:11px;font-family:OpenSans-Semibold;font-weight:700">$78,454,069</text>
-	<text transform="translate(150.05 130.34)" style="font-size:11px;font-family:OpenSans-Bold;font-weight:700">$197,089,510</text>
-	<text  transform="translate(264.05 113.84)" style="font-size:11px;font-family:OpenSans-Bold;font-weight:700">$219,168,860</text>
-	<rect x="53.39" y="36.09" width="15.17" height="15.17" style="fill:url(#psa-e)"/>
-	<text transform="translate(75.59 47.01)" style="font-size:9px;">Non-federal</text><rect x="144.05" y="36.09" width="15.17" height="15.17" style="fill:url(#psa-f)"/>
-	<text transform="translate(166.11 47.01)" style="font-size:9px;">Federal</text>
+	<title>Sponsored project awards received</title>
+	<line x1="63.65" y1="216.02" x2="294.12" y2="216.02" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="63.65" y1="216.02" x2="63.65" y2="210.95" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="178.88" y1="216.02" x2="178.88" y2="210.95" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="294.12" y1="216.02" x2="294.12" y2="210.95" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<text transform="translate(54.91 220.08)" style="font-size:9px;">0</text>
+	<text transform="translate(9.33 179.49)" style="font-size:9px;">$50,000,000</text>
+	<text transform="translate(4.18 138.9)" style="font-size:9px;">$100,000,000</text>
+	<text transform="translate(4.18 98.32)" style="font-size:9px;">$150,000,000</text>
+	<text transform="translate(4.18 57.73)" style="font-size:9px;">$200,000,000</text>
+	<text transform="translate(4.18 17.14)" style="font-size:9px;">$250,000,000</text>
+	<line x1="63.65" y1="216.02" x2="63.65" y2="13.09" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="63.65" y1="216.02" x2="69.42" y2="216.02" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="63.65" y1="175.44" x2="69.42" y2="175.44" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="63.65" y1="134.85" x2="69.42" y2="134.85" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="63.65" y1="94.26" x2="69.42" y2="94.26" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="63.65" y1="53.68" x2="69.42" y2="53.68" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="63.65" y1="13.09" x2="69.42" y2="13.09" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<rect x="79.79" y="56.11" width="82.97" height="48.7" style="fill:url(#spa-a)"/>
+	<rect x="195.02" y="38.26" width="82.97" height="63.31" style="fill:url(#spa-b)"/>
+	<rect x="79.79" y="104.82" width="82.97" height="111.21" style="fill:url(#spa-c)"/>
+	<rect x="195.02" y="101.57" width="82.97" height="114.45" style="fill:url(#spa-d)"/>
+	<text transform="translate(103.52 228.08)" style="font-size:8px;">FY 2015</text>
+	<text transform="translate(219.02 228.08)" style="font-size:8px;">FY 2016</text>
+	<text transform="translate(87.84 123.34)" style="font-size:11px;font-weight:700">$137,237,387</text>
+	<text transform="translate(201.84 119.37)" style="font-size:11px;font-weight:700">$140,714,791</text>
+	<text transform="translate(91.57 74.4)" style="font-size:11px;font-weight:700">$59,852,123</text>
+	<text transform="translate(205.19 55.84)" style="font-size:11px;font-weight:700">$78,454,069</text>
+	<text transform="translate(87.33 49.61)" style="font-size:11px;font-weight:700">$197,089,510</text>
+	<text transform="translate(201.33 32.01)" style="font-size:11px;font-weight:700">$219,168,860</text>
+	<rect x="63.83" y="252.42" width="15.17" height="15.17" style="fill:url(#spa-e)"/>
+	<text transform="translate(85.04 262.64)" style="font-size:9px;">Non-federal</text>
+	<rect x="154.5" y="252.42" width="15.17" height="15.17" style="fill:url(#spa-f)"/>
+	<text transform="translate(175.56 262.64)" style="font-size:9px;">Federal</text>
 </svg>
 <?php
     $svg_1 = ob_get_contents();
@@ -124,45 +123,46 @@ function register_svgs() {
     ob_start();
     ?>
     <!-- royalty-revenue is pasted here -->
-<svg class="animate svg-graph royalty-revenue" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0  500 350">
+<svg class="animate svg-graph" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 270">
 	<defs>
-		<linearGradient id="ra-a" x1="125.94" y1="223.09" x2="125.94" y2="305.78" gradientUnits="userSpaceOnUse">
+		<linearGradient id="rr-a" x1="71.23" y1="173.34" x2="71.23" y2="256.03" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#00a5bd"/>
 			<stop offset="1" stop-color="#1b9e85"/>
 		</linearGradient>
-		<linearGradient id="ra-b" x1="183.56" y1="205.74" x2="183.56" y2="305.78" xlink:href="#ra-a"/>
-		<linearGradient id="ra-c" x1="241.17" y1="178.34" x2="241.17" y2="305.78" xlink:href="#ra-a"/>
-		<linearGradient id="ra-d" x1="298.79" y1="102.85" x2="298.79" y2="305.78" xlink:href="#ra-a"/>
+		<linearGradient id="rr-b" x1="128.85" y1="155.99" x2="128.85" y2="256.03" xlink:href="#rr-a"/>
+		<linearGradient id="rr-c" x1="186.46" y1="128.59" x2="186.46" y2="256.03" xlink:href="#rr-a"/>
+		<linearGradient id="rr-d" x1="244.08" y1="53.1" x2="244.08" y2="256.03" xlink:href="#rr-a"/>
 	</defs>
-		<line x1="97.13" y1="305.78" x2="327.6" y2="305.78" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<line x1="97.13" y1="305.78" x2="97.13" y2="300.71" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<line x1="154.75" y1="305.78" x2="154.75" y2="300.71" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<line x1="212.36" y1="305.78" x2="212.36" y2="300.71" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<line x1="269.98" y1="305.78" x2="269.98" y2="300.71" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<line x1="327.6" y1="305.78" x2="327.6" y2="300.71" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<text transform="translate(88.39 309.84)" style="font-size:9px;">0</text>
-		<text transform="translate(85.99 259.1)" style="font-size:9px;">.5</text>
-		<text transform="translate(80.85 208.37)" style="font-size:9px;">1.0</text>
-		<text transform="translate(80.85 157.64)" style="font-size:9px;">1.5</text>
-		<text transform="translate(80.85 106.9)" style="font-size:9px;">2.0</text>
-		<line x1="97.13" y1="305.78" x2="97.13" y2="102.85" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<line x1="97.13" y1="305.78" x2="102.9" y2="305.78" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<line x1="97.13" y1="255.05" x2="102.9" y2="255.05" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<line x1="97.13" y1="204.32" x2="102.9" y2="204.32" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<line x1="97.13" y1="153.58" x2="102.9" y2="153.58" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<line x1="97.13" y1="102.85" x2="102.9" y2="102.85" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<rect x="105.2" y="223.09" width="41.48" height="82.7" style="fill:url(#ra-a)"/>
-		<rect x="162.82" y="205.74" width="41.48" height="100.05" style="fill:url(#ra-b)"/>
-		<rect x="220.43" y="178.34" width="41.48" height="127.44" style="fill:url(#ra-c)"/>
-		<rect x="278.05" y="102.85" width="41.48" height="202.93" style="fill:url(#ra-d)"/>
-		<text transform="translate(114.58 319.84)" style="font-size:8px;">2013</text>
-		<text transform="translate(173.08 319.84)" style="font-size:8px;">2014</text>
-		<text transform="translate(231.58 319.84)" style="font-size:8px;">2015</text>
-		<text transform="translate(291.08 319.84)" style="font-size:8px;">2016</text>
-		<text transform="translate(113.27 219.84) rotate(-45)" style="font-size:11px;font-family:OpenSans-Bold;font-weight:700">$814,907</text>
-		<text transform="translate(171.27 202.18) rotate(-45)" style="font-size:11px;font-family:OpenSans-Bold;font-weight:700">$985,785</text>
-		<text transform="translate(229.08 174.37) rotate(-45)" style="font-size:11px;font-family:OpenSans-Bold;font-weight:700">$1,255,399</text>
-		<text transform="translate(286.58 98.87) rotate(-45)" style="font-size:11px;font-family:OpenSans-Bold;font-weight:700">$1,955,051</text>
+	<title>Royalty revenue</title>
+	<line x1="42.43" y1="256.03" x2="272.89" y2="256.03" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="42.43" y1="256.03" x2="42.43" y2="250.96" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="100.04" y1="256.03" x2="100.04" y2="250.96" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="157.66" y1="256.03" x2="157.66" y2="250.96" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="215.27" y1="256.03" x2="215.27" y2="250.96" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="272.89" y1="256.03" x2="272.89" y2="250.96" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<text transform="translate(33.68 260.09)" style="font-size:9px;">0</text>
+	<text transform="translate(31.28 209.35)" style="font-size:9px;">.5</text>
+	<text transform="translate(26.14 158.62)" style="font-size:9px;">1.0</text>
+	<text transform="translate(26.14 107.89)" style="font-size:9px;">1.5</text>
+	<text transform="translate(26.14 57.15)" style="font-size:9px;">2.0</text>
+	<line x1="42.43" y1="256.03" x2="42.43" y2="53.1" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="42.43" y1="256.03" x2="48.19" y2="256.03" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="42.43" y1="205.3" x2="48.19" y2="205.3" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="42.43" y1="154.57" x2="48.19" y2="154.57" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="42.43" y1="103.83" x2="48.19" y2="103.83" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="42.43" y1="53.1" x2="48.19" y2="53.1" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<rect x="50.49" y="173.34" width="41.48" height="82.7" style="fill:url(#rr-a)"/>
+	<rect x="108.11" y="155.99" width="41.48" height="100.05" style="fill:url(#rr-b)"/>
+	<rect x="165.72" y="128.59" width="41.48" height="127.44" style="fill:url(#rr-c)"/>
+	<rect x="223.34" y="53.1" width="41.48" height="202.93" style="fill:url(#rr-d)"/>
+	<text transform="translate(59.87 266.54)" style="font-size:8px;">2013</text>
+	<text transform="translate(118.37 266.54)" style="font-size:8px;">2014</text>
+	<text transform="translate(176.87 266.54)" style="font-size:8px;">2015</text>
+	<text transform="translate(236.37 266.54)" style="font-size:8px;">2016</text>
+	<text transform="translate(55.91 169.09) rotate(-45)" style="font-size:10.950329780578613px;font-weight:700">$814,907</text>
+	<text transform="translate(113.23 151.63) rotate(-45)" style="font-size:11px;font-weight:700">$985,785</text>
+	<text transform="translate(170.04 124.16) rotate(-45)" style="font-size:11px;font-weight:700">$1,255,399</text>
+	<text transform="translate(231.87 48.12) rotate(-45)" style="font-size:11px;font-weight:700">$1,955,051</text>
 </svg>
 <?php
     $svg_2 = ob_get_contents();
@@ -170,120 +170,107 @@ function register_svgs() {
  ob_start();
     ?>
     <!-- commercialization-activity is pasted here -->
-<svg class="animate svg-graph commercialization-activity" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 350">
+<svg class="animate svg-graph" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 370 270">
 	<defs>
-		<linearGradient id="ca-a" x1="114.89" y1="305.34" x2="114.89" y2="233.01" gradientUnits="userSpaceOnUse">
+		<linearGradient id="ca-a" x1="93.82" y1="200.77" x2="93.82" y2="128.43" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#f47623"/>
 			<stop offset="1" stop-color="#f7a51c"/>
 		</linearGradient>
-		<linearGradient id="ca-b" x1="181.59" y1="305.34" x2="181.59" y2="139.09" xlink:href="#ca-a"/>
-		<linearGradient id="ca-c" x1="248.29" y1="305.34" x2="248.29" y2="249.93" xlink:href="#ca-a"/>
-		<linearGradient id="ca-d" x1="314.99" y1="305.34" x2="314.99" y2="263.93" xlink:href="#ca-a"/>
-		<linearGradient id="ca-e" x1="381.69" y1="305.34" x2="381.69" y2="301.26" xlink:href="#ca-a"/>
-		<linearGradient id="ca-f" x1="101.55" y1="239.43" x2="101.55" y2="305.34" gradientUnits="userSpaceOnUse">
+		<linearGradient id="ca-b" x1="177.19" y1="200.77" x2="177.19" y2="34.52" xlink:href="#ca-a"/>
+		<linearGradient id="ca-c" x1="260.57" y1="200.77" x2="260.57" y2="145.35" xlink:href="#ca-a"/>
+		<linearGradient id="ca-d" x1="343.94" y1="200.77" x2="343.94" y2="159.35" xlink:href="#ca-a"/>
+		<linearGradient id="ca-e" x1="77.14" y1="134.85" x2="77.14" y2="200.77" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#00a5bd"/>
 			<stop offset="1" stop-color="#1b9e85"/>
 		</linearGradient>
-		<linearGradient id="ca-g" x1="168.25" y1="170.01" x2="168.25" y2="305.34" xlink:href="#ca-f"/>
-		<linearGradient id="ca-h" x1="234.95" y1="269.76" x2="234.95" y2="305.34" xlink:href="#ca-f"/>
-		<linearGradient id="ca-i" x1="301.65" y1="273.26" x2="301.65" y2="305.34" xlink:href="#ca-f"/>
-		<linearGradient id="ca-j" x1="368.35" y1="300.09" x2="368.35" y2="305.34" xlink:href="#ca-f"/>
-		<linearGradient id="ca-k" x1="82.21" y1="275.3" x2="94.21" y2="275.3" gradientUnits="userSpaceOnUse">
+		<linearGradient id="ca-f" x1="160.52" y1="65.43" x2="160.52" y2="200.77" xlink:href="#ca-e"/>
+		<linearGradient id="ca-g" x1="243.89" y1="165.18" x2="243.89" y2="200.77" xlink:href="#ca-e"/>
+		<linearGradient id="ca-h" x1="327.27" y1="168.68" x2="327.27" y2="200.77" xlink:href="#ca-e"/>
+		<linearGradient id="ca-i" x1="52.97" y1="170.72" x2="67.97" y2="170.72" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#ef395f"/>
 			<stop offset="0.74" stop-color="#f04d4c"/>
 		</linearGradient>
-		<linearGradient id="ca-l" x1="148.91" y1="232.43" x2="160.91" y2="232.43" xlink:href="#ca-k"/>
-		<linearGradient id="ca-m" x1="215.61" y1="285.22" x2="227.61" y2="285.22" xlink:href="#ca-k"/>
-		<linearGradient id="ca-n" x1="282.31" y1="291.05" x2="294.31" y2="291.05" xlink:href="#ca-k"/>
-		<linearGradient id="ca-o" x1="349.01" y1="303.89" x2="361.01" y2="303.89" xlink:href="#ca-k"/>
-		<linearGradient id="ca-p" x1="74.87" y1="266.84" x2="74.87" y2="305.34" gradientUnits="userSpaceOnUse">
+		<linearGradient id="ca-j" x1="136.34" y1="127.85" x2="151.35" y2="127.85" xlink:href="#ca-i"/>
+		<linearGradient id="ca-k" x1="219.72" y1="180.64" x2="234.72" y2="180.64" xlink:href="#ca-i"/>
+		<linearGradient id="ca-l" x1="303.09" y1="186.47" x2="318.1" y2="186.47" xlink:href="#ca-i"/>
+		<linearGradient id="ca-m" x1="43.79" y1="162.27" x2="43.79" y2="200.77" gradientUnits="userSpaceOnUse">
 			<stop offset="0" stop-color="#89b43f"/>
 			<stop offset="1" stop-color="#56aa46"/>
 		</linearGradient>
-		<linearGradient id="ca-q" x1="141.57" y1="192.18" x2="141.57" y2="305.34" xlink:href="#ca-p"/>
-		<linearGradient id="ca-r" x1="208.27" y1="256.93" x2="208.27" y2="305.34" xlink:href="#ca-p"/>
-		<linearGradient id="ca-s" x1="274.97" y1="280.26" x2="274.97" y2="305.34" xlink:href="#ca-p"/>
-		<linearGradient id="ca-t" x1="341.67" y1="303.01" x2="341.67" y2="305.34" xlink:href="#ca-p"/>
-		<linearGradient id="ca-u" x1="55.28" y1="51.26" x2="55.28" y2="36.09" xlink:href="#ca-p"/>
-		<linearGradient id="ca-v" x1="111.95" y1="36.09" x2="111.95" y2="51.26" xlink:href="#ca-k"/>
-		<linearGradient id="ca-w" x1="166.95" y1="51.26" x2="166.95" y2="36.09" xlink:href="#ca-f"/>
-		<linearGradient id="ca-x" x1="219.61" y1="51.26" x2="219.61" y2="36.09" xlink:href="#ca-a"/>
+		<linearGradient id="ca-n" x1="127.17" y1="87.6" x2="127.17" y2="200.77" xlink:href="#ca-m"/>
+		<linearGradient id="ca-o" x1="210.54" y1="152.35" x2="210.54" y2="200.77" xlink:href="#ca-m"/>
+		<linearGradient id="ca-p" x1="293.92" y1="175.68" x2="293.92" y2="200.77" xlink:href="#ca-m"/>
+		<linearGradient id="ca-q" x1="34.51" y1="267.58" x2="34.51" y2="252.42" xlink:href="#ca-m"/>
+		<linearGradient id="ca-r" x1="91.18" y1="252.42" x2="91.18" y2="267.58" xlink:href="#ca-i"/>
+		<linearGradient id="ca-s" x1="146.18" y1="267.58" x2="146.18" y2="252.42" xlink:href="#ca-e"/>
+		<linearGradient id="ca-t" x1="198.85" y1="267.58" x2="198.85" y2="252.42" xlink:href="#ca-a"/>
 	</defs>
-	<text transform="translate(72.9 320.34)" style="font-size:8px;">Disclosures</text>
-	<text transform="translate(143.58 320.34)" style="font-size:8px;">Inventions</text>
-	<text transform="translate(214.84 320.84)" style="font-size:8px;">Patent <tspan x="-9.29" y="9.6">applications</tspan></text>
-	<text transform="translate(271.07 320.84)" style="font-size:8px;">U.S. licenses<tspan x="10.98" y="9.6">issued</tspan></text>
-	<line x1="61.53" y1="305.34" x2="395.03" y2="305.34" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<line x1="61.53" y1="305.34" x2="61.53" y2="300.97" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<line x1="128.23" y1="305.34" x2="128.23" y2="300.97" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<line x1="194.93" y1="305.34" x2="194.93" y2="300.97" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<line x1="261.63" y1="305.34" x2="261.63" y2="300.97" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<line x1="328.33" y1="305.34" x2="328.33" y2="300.97" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<line x1="395.03" y1="305.34" x2="395.03" y2="300.97" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<text transform="translate(51.17 311.21)" style="font-size:9px;">0</text>
-	<text transform="translate(46.03 282.04)" style="font-size:9px;">50</text>
-	<text transform="translate(40.88 252.87)" style="font-size:9px;">100</text>
-	<text transform="translate(40.88 223.71)" style="font-size:9px;">150</text>
-	<text transform="translate(40.88 194.54)" style="font-size:9px;">200</text>
-	<text transform="translate(40.88 165.37)" style="font-size:9px;">250</text>
-	<text transform="translate(40.88 136.21)" style="font-size:9px;">300</text>
-	<line x1="61.53" y1="305.34" x2="61.53" y2="130.34" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<line x1="61.53" y1="305.34" x2="69.87" y2="305.34" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<line x1="61.53" y1="276.18" x2="69.87" y2="276.18" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<line x1="61.53" y1="247.01" x2="69.87" y2="247.01" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<line x1="61.53" y1="217.84" x2="69.87" y2="217.84" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<line x1="61.53" y1="188.68" x2="69.87" y2="188.68" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<line x1="61.53" y1="159.51" x2="69.87" y2="159.51" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<line x1="61.53" y1="130.34" x2="69.87" y2="130.34" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-	<rect x="108.89" y="233.01" width="12.01" height="72.33" style="fill:url(#ca-a)"/>
-	<rect x="175.59" y="139.09" width="12.01" height="166.25" style="fill:url(#ca-b)"/>
-	<rect x="242.29" y="249.93" width="12.01" height="55.42" style="fill:url(#ca-c)"/>
-	<rect x="308.99" y="263.93" width="12.01" height="41.42" style="fill:url(#ca-d)"/>
-	<rect x="375.69" y="301.26" width="12.01" height="4.08" style="fill:url(#ca-e)"/>
-	<rect x="95.55" y="239.43" width="12.01" height="65.92" style="fill:url(#ca-f)"/>
-	<rect x="162.25" y="170.01" width="12.01" height="135.33" style="fill:url(#ca-g)"/>
-	<rect x="228.95" y="269.76" width="12.01" height="35.58" style="fill:url(#ca-h)"/>
-	<rect x="295.65" y="273.26" width="12.01" height="32.08" style="fill:url(#ca-i)"/>
-	<rect x="362.35" y="300.09" width="12.01" height="5.25" style="fill:url(#ca-j)"/>
-	<rect x="82.21" y="245.26" width="12.01" height="60.08" style="fill:url(#ca-k)"/>
-	<rect x="148.91" y="159.51" width="12.01" height="145.83" style="fill:url(#ca-l)"/>
-	<rect x="215.61" y="265.09" width="12.01" height="40.25" style="fill:url(#ca-m)"/>
-	<rect x="282.31" y="276.76" width="12.01" height="28.58" style="fill:url(#ca-n)"/>
-	<rect x="349.01" y="302.43" width="12.01" height="2.92" style="fill:url(#ca-o)"/>
-	<rect x="68.87" y="266.84" width="12.01" height="38.5" style="fill:url(#ca-p)"/>
-	<rect x="135.57" y="192.18" width="12.01" height="113.17" style="fill:url(#ca-q)"/>
-	<rect x="202.27" y="256.93" width="12.01" height="48.42" style="fill:url(#ca-r)"/>
-	<rect x="268.97" y="280.26" width="12.01" height="25.08" style="fill:url(#ca-s)"/>
-	<rect x="335.67" y="303.01" width="12.01" height="2.33" style="fill:url(#ca-t)"/>
-	<text transform="translate(342.7 321.34)" style="font-size:8px;">Number of<tspan x="4.93" y="9.6">startups</tspan></text>
-	<text transform="translate(77.88 263.32) rotate(-90)" style="font-size:9px;font-family:OpenSans-Bold;font-weight:700">66</text>
-	<text transform="translate(90.06 242.2) rotate(-90)" style="font-size:9px;font-family:OpenSans-Bold;font-weight:700">103</text>
-	<text transform="translate(104.06 236.7) rotate(-90)" style="font-size:9px;font-family:OpenSans-Bold;font-weight:700">113</text>
-	<text transform="translate(117.53 229.7) rotate(-90)" style="font-size:9px;font-family:OpenSans-Bold;font-weight:700">124</text>
-	<text transform="translate(143.88 190.46) rotate(-90)" style="font-size:9px;font-family:OpenSans-Bold;font-weight:700">194</text>
-	<text transform="translate(157.38 157.46) rotate(-90)" style="font-size:9px;font-family:OpenSans-Bold;font-weight:700">250</text>
-	<text transform="translate(170.88 167.96) rotate(-90)" style="font-size:9px;font-family:OpenSans-Bold;font-weight:700">232</text>
-	<text transform="translate(184.53 136.96) rotate(-90)" style="font-size:9px;font-family:OpenSans-Bold;font-weight:700">285</text>
-	<text transform="translate(210.38 255.12) rotate(-90)" style="font-size:9px;font-family:OpenSans-Bold;font-weight:700">83</text>
-	<text transform="translate(224.38 263.12) rotate(-90)" style="font-size:9px;font-family:OpenSans-Bold;font-weight:700">69</text>
-	<text transform="translate(237.38 267.62) rotate(-90)" style="font-size:9px;font-family:OpenSans-Bold;font-weight:700">61</text>
-	<text transform="translate(251.38 247.62) rotate(-90)" style="font-size:9px;font-family:OpenSans-Bold;font-weight:700">95</text>
-	<text transform="translate(277.38 278.12) rotate(-90)" style="font-size:9px;font-family:OpenSans-Bold;font-weight:700">43</text>
-	<text transform="translate(291.38 274.62) rotate(-90)" style="font-size:9px;font-family:OpenSans-Bold;font-weight:700">49</text>
-	<text transform="translate(304.88 271.62) rotate(-90)" style="font-size:9px;font-family:OpenSans-Bold;font-weight:700">55</text>
-	<text transform="translate(317.88 260.62) rotate(-90)" style="font-size:9px;font-family:OpenSans-Bold;font-weight:700">71</text>
-	<text transform="translate(343.88 298.98) rotate(-90)" style="font-size:9px;font-family:OpenSans-Bold;font-weight:700">4</text>
-	<text transform="translate(356.88 298.98) rotate(-90)" style="font-size:9px;font-family:OpenSans-Bold;font-weight:700">5</text>
-	<text transform="translate(370.88 296.98) rotate(-90)" style="font-size:9px;font-family:OpenSans-Bold;font-weight:700">9</text>
-	<text transform="translate(384.38 298.98) rotate(-90)" style="font-size:9px;font-family:OpenSans-Bold;font-weight:700">7</text>
-	<rect x="47.7" y="36.09" width="15.17" height="15.17" style="fill:url(#ca-u)"/>
-	<text transform="translate(69.74 48.01)" style="font-size:9px;">2013</text>
-	<rect x="104.36" y="36.09" width="15.17" height="15.17" style="fill:url(#ca-v)"/>
-	<text transform="translate(126.74 48.01)" style="font-size:9px;">2014</text>
-	<rect x="159.36" y="36.09" width="15.17" height="15.17" style="fill:url(#ca-w)"/>
-	<text transform="translate(180.41 48.01)" style="font-size:9px;">2015</text>
-	<rect x="212.03" y="36.09" width="15.17" height="15.17" style="fill:url(#ca-x)"/>
-	<text transform="translate(233.07 48.01)" style="font-size:9px;">2016</text>
+	<title>Commercialization activity</title>
+	<text transform="translate(49.15 215.26)" style="font-size:8px;">Disclosures</text>
+	<text transform="translate(132.5 215.26)" style="font-size:8px;">Inventions</text>
+	<text transform="translate(229.73 215.27)" style="font-size:8px;">Patent <tspan x="-9.29" y="9.6">applications</tspan></text>
+	<text transform="translate(298.66 215.76)" style="font-size:8px;">U.S. licenses<tspan x="10.98" y="9.6">issued</tspan></text>
+	<line x1="27.12" y1="200.77" x2="360.62" y2="200.77" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="27.12" y1="200.77" x2="27.12" y2="196.39" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="110.49" y1="200.77" x2="110.49" y2="196.39" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="193.87" y1="200.77" x2="193.87" y2="196.39" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="277.24" y1="200.77" x2="277.24" y2="196.39" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="360.62" y1="200.77" x2="360.62" y2="196.39" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<text transform="translate(16.76 206.63)" style="font-size:9px;">0</text>
+	<text transform="translate(11.62 177.46)" style="font-size:9px;">50</text>
+	<text transform="translate(6.47 148.29)" style="font-size:9px;">100</text>
+	<text transform="translate(6.47 119.13)" style="font-size:9px;">150</text>
+	<text transform="translate(6.47 89.96)" style="font-size:9px;">200</text>
+	<text transform="translate(6.47 60.79)" style="font-size:9px;">250</text>
+	<text transform="translate(6.47 31.63)" style="font-size:9px;">300</text>
+	<line x1="27.12" y1="200.77" x2="27.12" y2="25.77" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="27.12" y1="200.77" x2="35.46" y2="200.77" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="27.12" y1="171.6" x2="35.46" y2="171.6" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="27.12" y1="142.43" x2="35.46" y2="142.43" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="27.12" y1="113.27" x2="35.46" y2="113.27" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="27.12" y1="84.1" x2="35.46" y2="84.1" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="27.12" y1="54.93" x2="35.46" y2="54.93" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<line x1="27.12" y1="25.77" x2="35.46" y2="25.77" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
+	<rect x="86.32" y="128.43" width="15.01" height="72.33" style="fill:url(#ca-a)"/>
+	<rect x="169.69" y="34.52" width="15.01" height="166.25" style="fill:url(#ca-b)"/>
+	<rect x="253.07" y="145.35" width="15.01" height="55.42" style="fill:url(#ca-c)"/>
+	<rect x="336.44" y="159.35" width="15.01" height="41.42" style="fill:url(#ca-d)"/>
+	<rect x="69.64" y="134.85" width="15.01" height="65.92" style="fill:url(#ca-e)"/>
+	<rect x="153.02" y="65.43" width="15.01" height="135.33" style="fill:url(#ca-f)"/>
+	<rect x="236.39" y="165.18" width="15.01" height="35.58" style="fill:url(#ca-g)"/>
+	<rect x="319.77" y="168.68" width="15.01" height="32.08" style="fill:url(#ca-h)"/>
+	<rect x="52.97" y="140.68" width="15.01" height="60.08" style="fill:url(#ca-i)"/>
+	<rect x="136.34" y="54.93" width="15.01" height="145.83" style="fill:url(#ca-j)"/>
+	<rect x="219.72" y="160.52" width="15.01" height="40.25" style="fill:url(#ca-k)"/>
+	<rect x="303.09" y="172.18" width="15.01" height="28.58" style="fill:url(#ca-l)"/>
+	<rect x="36.29" y="162.27" width="15.01" height="38.5" style="fill:url(#ca-m)"/>
+	<rect x="119.67" y="87.6" width="15.01" height="113.17" style="fill:url(#ca-n)"/>
+	<rect x="203.04" y="152.35" width="15.01" height="48.42" style="fill:url(#ca-o)"/>
+	<rect x="286.42" y="175.68" width="15.01" height="25.08" style="fill:url(#ca-p)"/>
+	<text transform="translate(46.09 158.78) rotate(-90)" style="font-size:9px;font-weight:700">66</text>
+	<text transform="translate(61.61 138.66) rotate(-90)" style="font-size:9px;font-weight:700">103</text>
+	<text transform="translate(79.61 133.16) rotate(-90)" style="font-size:9px;font-weight:700">113</text>
+	<text transform="translate(97.08 126.16) rotate(-90)" style="font-size:9px;font-weight:700">124</text>
+	<text transform="translate(129.84 85.91) rotate(-90)" style="font-size:9px;font-weight:700">194</text>
+	<text transform="translate(146.26 52.84) rotate(-90)" style="font-size:9px;font-weight:700">250</text>
+	<text transform="translate(163.42 63.34) rotate(-90)" style="font-size:9px;font-weight:700">232</text>
+	<text transform="translate(179.41 32.75) rotate(-90)" style="font-size:9px;font-weight:700">285</text>
+	<text transform="translate(212.92 149.58) rotate(-90)" style="font-size:9px;font-weight:700">83</text>
+	<text transform="translate(229.92 157.24) rotate(-90)" style="font-size:9px;font-weight:700">69</text>
+	<text transform="translate(246.26 162.08) rotate(-90)" style="font-size:9px;font-weight:700">61</text>
+	<text transform="translate(262.92 142.08) rotate(-90)" style="font-size:9px;font-weight:700">95</text>
+	<text transform="translate(296.49 172.08) rotate(-90)" style="font-size:9px;font-weight:700">43</text>
+	<text transform="translate(313.48 169.08) rotate(-90)" style="font-size:9px;font-weight:700">49</text>
+	<text transform="translate(330.42 165.08) rotate(-90)" style="font-size:9px;font-weight:700">55</text>
+	<text transform="translate(347.42 156.08) rotate(-90)" style="font-size:9px;font-weight:700">71</text>
+	<rect x="26.93" y="252.42" width="15.17" height="15.17" style="fill:url(#ca-q)"/>
+	<text transform="translate(48.97 262.64)" style="font-size:9px;">2013</text>
+	<rect x="83.6" y="252.42" width="15.17" height="15.17" style="fill:url(#ca-r)"/>
+	<text transform="translate(105.97 262.64)" style="font-size:9px;">2014</text>
+	<rect x="138.6" y="252.42" width="15.17" height="15.17" style="fill:url(#ca-s)"/>
+	<text transform="translate(159.64 262.64)" style="font-size:9px;">2015</text>
+	<rect x="191.26" y="252.42" width="15.17" height="15.17" style="fill:url(#ca-t)"/>
+	<text transform="translate(212.3 262.64)" style="font-size:9px;">2016</text>
 </svg>
 <?php
     $svg_3 = ob_get_contents();
