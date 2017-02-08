@@ -278,7 +278,7 @@ function register_svgs() {
 	<text transform="translate(189.96 50.68) rotate(-90)" style="font-size:11px;font-weight:700">250</text>
 	<text transform="translate(212.54 61.55) rotate(-90)" style="font-size:11px;font-weight:700">232</text>
 	<text transform="translate(234.96 26.64) rotate(-90)" style="font-size:11px;font-weight:700">285</text>
-	<text transform="translate(280.21 159.53) rotate(-90)" style="font-size:11px;font-weight:700">85</text>
+	<text transform="translate(280.21 159.53) rotate(-90)" style="font-size:11px;font-weight:700">83</text>
 	<text transform="translate(303.04 169.53) rotate(-90)" style="font-size:11px;font-weight:700">69</text>
 	<text transform="translate(325.62 173.98) rotate(-90)" style="font-size:11px;font-weight:700">61</text>
 	<text transform="translate(348.62 151.98) rotate(-90)" style="font-size:11px;font-weight:700">95</text>
