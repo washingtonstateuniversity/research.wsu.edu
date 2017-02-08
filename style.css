@@ -1224,6 +1224,7 @@ body[class*='sub-sub-section-'] .wsuwp-content-syndicate-wrapper ul {
 .svg-graph text {
 	fill: #fff;
 }
+<<<<<<< HEAD
 /*.svg-graph.animate rect {
 	animation-duration: 3s;
   animation-name: slidein;
@@ -1236,6 +1237,8 @@ body[class*='sub-sub-section-'] .wsuwp-content-syndicate-wrapper ul {
 		height: -100%;
 	}
 }*/
+=======
+>>>>>>> 2a1254a56ccb36d1c1194cad1c234723ba3c05b0
 @media only screen and (max-width: 700px) {
 	body[class*='sub-sub-section-'] .wsuwp-content-syndicate-item,
 	.home .wsuwp-content-syndicate-item,

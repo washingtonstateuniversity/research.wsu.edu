@@ -6,9 +6,6 @@ add_action( 'wp_enqueue_scripts', 'research_enqueue_scripts');
  */
 function research_enqueue_scripts() {
 	wp_enqueue_style( 'custom-style', get_stylesheet_directory_uri() . '/assets/custom-research.css' );
-	$post = get_post();
-	if ( isset( $post->post_content ) && has_shortcode( $post->post_content, 'wsu_inline_svg' ) ) {
-		wp_enqueue_script( 'animate-svg', get_stylesheet_directory_uri() . '/assets/js/animate-svg.js', array( 'jquery' ) );	}
 }
 
 add_filter( 'wsu_content_syndicate_host_data', 'research_filter_syndicate_host_data', 10, 2 );
@@ -62,13 +59,10 @@ function research_add_meta_tags() {
 	?><meta name="apple-mobile-web-app-capable" content="yes"><?php
 }
 
-
-
-
-
-
-
 add_action( 'wsu_register_inline_svg', 'register_svgs' );
+/**
+ * Register SVG data for the WSU Inline SVG plugin.
+ */
 function register_svgs() {
     ob_start();
     ?>
