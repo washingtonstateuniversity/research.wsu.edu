@@ -1235,7 +1235,7 @@ body[class*='sub-sub-section-'] .wsuwp-content-syndicate-wrapper ul {
 	to {
 		height: -100%;
 	}
-}
+}*/
 @media only screen and (max-width: 700px) {
 	body[class*='sub-sub-section-'] .wsuwp-content-syndicate-item,
 	.home .wsuwp-content-syndicate-item,
@@ -1264,7 +1264,7 @@ body[class*='sub-sub-section-'] .wsuwp-content-syndicate-wrapper ul {
 	.wsuwp-content-syndicate-item {
 		width: 100%;
 	}
-}*/
+}
 @media screen and (max-width: 791px) {
 	.single-post .featured-wrap {
 		width: 100%;
