@@ -1221,18 +1221,10 @@ body[class*='sub-sub-section-'] .wsuwp-content-syndicate-wrapper ul {
 	border: none;
 }
 /************** SVG graphs **************/
-svg.svg-graph {
-	width:100%;
-	height:100%;
-	overflow: visible;
-	display: block;
-}
 .svg-graph text {
 	fill: #fff;
 }
-.svg-graph rect {
-}
-.svg-graph.animate rect {
+/*.svg-graph.animate rect {
 	animation-duration: 3s;
   animation-name: slidein;
 }
@@ -1272,7 +1264,7 @@ svg.svg-graph {
 	.wsuwp-content-syndicate-item {
 		width: 100%;
 	}
-}
+}*/
 @media screen and (max-width: 791px) {
 	.single-post .featured-wrap {
 		width: 100%;
