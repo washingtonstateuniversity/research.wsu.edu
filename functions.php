@@ -105,22 +105,10 @@ function register_svgs() {
 		<line x1="63.65" y1="94.26" x2="69.42" y2="94.26" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
 		<line x1="63.65" y1="53.68" x2="69.42" y2="53.68" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
 		<line x1="63.65" y1="13.09" x2="69.42" y2="13.09" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<rect x="79.79" y="56.11" width="82.97" height="48.7" style="fill:url(#spa-a)">
-			<animate attributeName="height" to="48.7" from="0" dur="2s" begin="indefinite" fill=”freeze” />
-			<animate attributeName="y" to="56.11" from="112.22" dur="2s" begin="indefinite" fill=”freeze” />
-		</rect>
-		<rect x="195.02" y="38.26" width="82.97" height="63.31" style="fill:url(#spa-b)">
-			<animate attributeName="height" to="63.31" from="0" dur="2s" begin="indefinite" fill=”freeze” />
-			<animate attributeName="y" to="38.26" from="76.52" dur="2s" begin="indefinite" fill=”freeze” />
-		</rect>
-		<rect x="79.79" y="104.82" width="82.97" height="111.21" style="fill:url(#spa-c)">
-			<animate attributeName="height" to="111.21" from="0" dur="2s" begin="indefinite" fill=”freeze” />
-			<animate attributeName="y" to="104.82" from="209.64" dur="2s" begin="indefinite" fill=”freeze” />
-		</rect>
-		<rect x="195.02" y="101.57" width="82.97" height="114.45" style="fill:url(#spa-d)">
-			<animate attributeName="height" to="114.45" from="0" dur="2s" begin="indefinite" fill=”freeze” />
-			<animate attributeName="y" to="101.57" from="203.14" dur="2s" begin="indefinite" fill=”freeze” />
-		</rect>
+		<rect x="79.79" y="56.11" width="82.97" height="48.7" style="fill:url(#spa-a)"/>
+		<rect x="195.02" y="38.26" width="82.97" height="63.31" style="fill:url(#spa-b)"/>
+		<rect x="79.79" y="104.82" width="82.97" height="111.21" style="fill:url(#spa-c)"/>
+		<rect x="195.02" y="101.57" width="82.97" height="114.45" style="fill:url(#spa-d)"/>
 		<text transform="translate(103.52 228.08)" style="font-size:8px;">FY 2015</text>
 		<text transform="translate(219.02 228.08)" style="font-size:8px;">FY 2016</text>
 		<text transform="translate(87.84 123.34)" style="font-size:11px;font-weight:700">$137,237,387</text>
@@ -285,7 +273,7 @@ function register_svgs() {
 	<text transform="translate(393.79 185.58) rotate(-90)" style="font-size:11px;font-weight:700">43</text>
 	<text transform="translate(415.46 181.58) rotate(-90)" style="font-size:11px;font-weight:700">49</text>
 	<text transform="translate(439.79 177.98) rotate(-90)" style="font-size:11px;font-weight:700">55</text>
-	<text transform="translate(461.46 168.2) rotate(-90)" style="font-size:11px;font-weight:700">71</text>
+	<text transform="translate(461.46 167.31) rotate(-90)" style="font-size:11px;font-weight:700">71</text>
 	<text transform="translate(505.79 210.31) rotate(-90)" style="font-size:11px;font-weight:700">4</text>
 	<text transform="translate(528.62 210.31) rotate(-90)" style="font-size:11px;font-weight:700">5</text>
 	<text transform="translate(551.46 207.03) rotate(-90)" style="font-size:11px;font-weight:700">9</text>
