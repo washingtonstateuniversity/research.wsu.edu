@@ -1301,22 +1301,6 @@ body[class*="sub-sub-section-"] .wsuwp-content-syndicate-wrapper ul {
 	fill: #fff;
 }
 
-/*.svg-graph.animate rect {
-	animation-duration: 3s;
-  animation-name: slidein;
-}
-
-@keyframes slidein {
-	from {
-		height: 0;
-	}
-
-	to {
-		height: -100%;
-	}
-
-}*/
-
 @media only screen and (max-width: 700px) {
 
 	body[class*="sub-sub-section-"] .wsuwp-content-syndicate-item,
