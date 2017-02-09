@@ -106,20 +106,20 @@ function register_svgs() {
 		<line x1="63.65" y1="53.68" x2="69.42" y2="53.68" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
 		<line x1="63.65" y1="13.09" x2="69.42" y2="13.09" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
 		<rect x="79.79" y="56.11" width="82.97" height="48.7" style="fill:url(#spa-a)">
-			<animate attributeName="height" to="48.7" from="0" dur="2s" begin="indefinite" fill=”freeze” />
-			<animate attributeName="y" to="56.11" from="112.22" dur="2s" begin="indefinite" fill=”freeze” />
+			<animate attributeName="height" to="48.7" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="56.11" from="104.81" dur="2s" begin="indefinite" fill="freeze" />
 		</rect>
 		<rect x="195.02" y="38.26" width="82.97" height="63.31" style="fill:url(#spa-b)">
-			<animate attributeName="height" to="63.31" from="0" dur="2s" begin="indefinite" fill=”freeze” />
-			<animate attributeName="y" to="38.26" from="76.52" dur="2s" begin="indefinite" fill=”freeze” />
+			<animate attributeName="height" to="63.31" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="38.26" from="101.57" dur="2s" begin="indefinite" fill="freeze" />
 		</rect>
 		<rect x="79.79" y="104.82" width="82.97" height="111.21" style="fill:url(#spa-c)">
-			<animate attributeName="height" to="111.21" from="0" dur="2s" begin="indefinite" fill=”freeze” />
-			<animate attributeName="y" to="104.82" from="209.64" dur="2s" begin="indefinite" fill=”freeze” />
+			<animate attributeName="height" to="111.21" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="104.82" from="216.03" dur="2s" begin="indefinite" fill="freeze" />
 		</rect>
 		<rect x="195.02" y="101.57" width="82.97" height="114.45" style="fill:url(#spa-d)">
-			<animate attributeName="height" to="114.45" from="0" dur="2s" begin="indefinite" fill=”freeze” />
-			<animate attributeName="y" to="101.57" from="203.14" dur="2s" begin="indefinite" fill=”freeze” />
+			<animate attributeName="height" to="114.45" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="101.57" from="216.02" dur="2s" begin="indefinite" fill="freeze" />
 		</rect>
 		<text transform="translate(103.52 228.08)" style="font-size:8px;">FY 2015</text>
 		<text transform="translate(219.02 228.08)" style="font-size:8px;">FY 2016</text>
@@ -169,10 +169,22 @@ function register_svgs() {
 		<line x1="42.43" y1="154.57" x2="48.19" y2="154.57" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
 		<line x1="42.43" y1="103.83" x2="48.19" y2="103.83" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
 		<line x1="42.43" y1="53.1" x2="48.19" y2="53.1" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<rect x="50.49" y="173.34" width="41.48" height="82.7" style="fill:url(#rr-a)"/>
-		<rect x="108.11" y="155.99" width="41.48" height="100.05" style="fill:url(#rr-b)"/>
-		<rect x="165.72" y="128.59" width="41.48" height="127.44" style="fill:url(#rr-c)"/>
-		<rect x="223.34" y="53.1" width="41.48" height="202.93" style="fill:url(#rr-d)"/>
+		<rect x="50.49" y="173.34" width="41.48" height="82.7" style="fill:url(#rr-a)">
+			<animate attributeName="height" to="82.7" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="173.34" from="256.04" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="108.11" y="155.99" width="41.48" height="100.05" style="fill:url(#rr-b)">
+			<animate attributeName="height" to="100.05" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="155.99" from="256.04" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="165.72" y="128.59" width="41.48" height="127.44" style="fill:url(#rr-c)">
+			<animate attributeName="height" to="127.44" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="128.59" from="256.04" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="223.34" y="53.1" width="41.48" height="202.93" style="fill:url(#rr-d)">
+			<animate attributeName="height" to="202.93" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="53.1" from="256.03" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
 		<text transform="translate(59.87 266.54)" style="font-size:8px;">2013</text>
 		<text transform="translate(118.37 266.54)" style="font-size:8px;">2014</text>
 		<text transform="translate(176.87 266.54)" style="font-size:8px;">2015</text>
