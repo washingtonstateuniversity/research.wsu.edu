@@ -1255,17 +1255,17 @@ body[class*="sub-sub-section-"] .wsuwp-content-syndicate-wrapper ul {
 }
 
 .svg-graph.animated g {
-	animation-duration: 7s;
+	animation-duration: 5s;
 	animation-name: slidein;
 }
 
 .svg-graph g,
 .svg-graph rect {
-	opacity: 0;
+	opacity: 1;
 }
 
 .svg-graph.animated rect {
-	opacity: 1;
+	transition: opacity .2s linear;
 }
 
 @keyframes slidein {

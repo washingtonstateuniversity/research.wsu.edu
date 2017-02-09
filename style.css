@@ -1302,19 +1302,20 @@ body[class*="sub-sub-section-"] .wsuwp-content-syndicate-wrapper ul {
 }
 
 .svg-graph.animated g {
-	-webkit-animation-duration: 7s;
-	        animation-duration: 7s;
+	-webkit-animation-duration: 5s;
+	        animation-duration: 5s;
 	-webkit-animation-name: slidein;
 	        animation-name: slidein;
 }
 
 .svg-graph g,
 .svg-graph rect {
-	opacity: 0;
+	opacity: 1;
 }
 
 .svg-graph.animated rect {
-	opacity: 1;
+	-webkit-transition: opacity .2s linear;
+	transition: opacity .2s linear;
 }
 
 @-webkit-keyframes slidein {
