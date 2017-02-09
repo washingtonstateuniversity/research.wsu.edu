@@ -21,7 +21,7 @@
 				bars = this.getElementsByTagName( "animate" );
 
 			$( document ).on( "scroll", function() {
-				if ( !inViewport( $element ) ) {
+				if ( !inViewport( $element ) || $element.hasClass( "animated" ) ) {
 					return;
 				}
 
