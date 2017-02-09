@@ -1302,8 +1302,8 @@ body[class*="sub-sub-section-"] .wsuwp-content-syndicate-wrapper ul {
 }
 
 .svg-graph.animated g {
-	-webkit-animation-duration: 5s;
-	        animation-duration: 5s;
+	-webkit-animation-duration: 4s;
+	        animation-duration: 4s;
 	-webkit-animation-name: slidein;
 	        animation-name: slidein;
 }
