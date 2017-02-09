@@ -29,7 +29,7 @@
 					bars[ i ].beginElement();
 				}
 
-				$element.removeClass( "animate" );
+				$element.addClass( "animated" );
 			} );
 		} );
 	}
