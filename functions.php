@@ -123,12 +123,24 @@ function register_svgs() {
 		</rect>
 		<text transform="translate(103.52 228.08)" style="font-size:8px;">FY 2015</text>
 		<text transform="translate(219.02 228.08)" style="font-size:8px;">FY 2016</text>
-		<text transform="translate(87.84 123.34)" style="font-size:11px;font-weight:700">$137,237,387</text>
-		<text transform="translate(201.84 119.37)" style="font-size:11px;font-weight:700">$140,714,791</text>
-		<text transform="translate(91.57 74.4)" style="font-size:11px;font-weight:700">$59,852,123</text>
-		<text transform="translate(205.19 55.84)" style="font-size:11px;font-weight:700">$78,454,069</text>
-		<text transform="translate(87.33 49.61)" style="font-size:11px;font-weight:700">$197,089,510</text>
-		<text transform="translate(201.33 32.01)" style="font-size:11px;font-weight:700">$219,168,860</text>
+		<g>
+			<text transform="translate(87.84 123.34)" style="font-size:11px;font-weight:700">$137,237,387</text>
+		</g>
+		<g>
+			<text transform="translate(201.84 119.37)" style="font-size:11px;font-weight:700">$140,714,791</text>
+		</g>
+		<g>
+			<text transform="translate(91.57 74.4)" style="font-size:11px;font-weight:700">$59,852,123</text>
+		</g>
+		<g>
+			<text transform="translate(205.19 55.84)" style="font-size:11px;font-weight:700">$78,454,069</text>
+		</g>
+		<g>
+			<text transform="translate(87.33 49.61)" style="font-size:11px;font-weight:700">$197,089,510</text>
+		</g>
+		<g>
+			<text transform="translate(201.33 32.01)" style="font-size:11px;font-weight:700">$219,168,860</text>
+		</g>
 		<rect x="63.83" y="252.42" width="15.17" height="15.17" style="fill:url(#spa-e)"/>
 		<text transform="translate(85.04 262.64)" style="font-size:9px;">Non-federal</text>
 		<rect x="154.5" y="252.42" width="15.17" height="15.17" style="fill:url(#spa-f)"/>
@@ -189,10 +201,18 @@ function register_svgs() {
 		<text transform="translate(118.37 266.54)" style="font-size:8px;">2014</text>
 		<text transform="translate(176.87 266.54)" style="font-size:8px;">2015</text>
 		<text transform="translate(236.37 266.54)" style="font-size:8px;">2016</text>
-		<text transform="translate(55.91 169.09) rotate(-45)" style="font-size:10.950329780578613px;font-weight:700">$814,907</text>
-		<text transform="translate(113.23 151.63) rotate(-45)" style="font-size:11px;font-weight:700">$985,785</text>
-		<text transform="translate(170.04 124.16) rotate(-45)" style="font-size:11px;font-weight:700">$1,255,399</text>
-		<text transform="translate(231.87 48.12) rotate(-45)" style="font-size:11px;font-weight:700">$1,955,051</text>
+		<g>
+			<text transform="translate(55.91 169.09) rotate(-45)" style="font-size:10.950329780578613px;font-weight:700">$814,907</text>
+		</g>
+		<g>
+			<text transform="translate(113.23 151.63) rotate(-45)" style="font-size:11px;font-weight:700">$985,785</text>
+		</g>
+		<g>
+			<text transform="translate(170.04 124.16) rotate(-45)" style="font-size:11px;font-weight:700">$1,255,399</text>
+		</g>
+		<g>
+			<text transform="translate(231.87 48.12) rotate(-45)" style="font-size:11px;font-weight:700">$1,955,051</text>
+		</g>
 	</svg>
 	<?php
 	$svg_2 = ob_get_contents();

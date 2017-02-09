@@ -1301,6 +1301,35 @@ body[class*="sub-sub-section-"] .wsuwp-content-syndicate-wrapper ul {
 	fill: #fff;
 }
 
+.svg-graph g {
+	-webkit-animation-duration: 6s;
+	        animation-duration: 6s;
+	-webkit-animation-name: slidein;
+	        animation-name: slidein;
+}
+
+@-webkit-keyframes slidein {
+
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes slidein {
+
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
 @media only screen and (max-width: 700px) {
 
 	body[class*="sub-sub-section-"] .wsuwp-content-syndicate-item,
