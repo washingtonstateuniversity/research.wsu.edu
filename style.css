@@ -1301,11 +1301,20 @@ body[class*="sub-sub-section-"] .wsuwp-content-syndicate-wrapper ul {
 	fill: #fff;
 }
 
-.svg-graph g {
-	-webkit-animation-duration: 6s;
-	        animation-duration: 6s;
+.svg-graph.animated g {
+	-webkit-animation-duration: 7s;
+	        animation-duration: 7s;
 	-webkit-animation-name: slidein;
 	        animation-name: slidein;
+}
+
+.svg-graph g,
+.svg-graph rect {
+	opacity: 0;
+}
+
+.svg-graph.animated rect {
+	opacity: 1;
 }
 
 @-webkit-keyframes slidein {
