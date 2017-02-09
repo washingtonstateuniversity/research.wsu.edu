@@ -1254,9 +1254,18 @@ body[class*="sub-sub-section-"] .wsuwp-content-syndicate-wrapper ul {
 	fill: #fff;
 }
 
-.svg-graph g {
-	animation-duration: 6s;
+.svg-graph.animated g {
+	animation-duration: 7s;
 	animation-name: slidein;
+}
+
+.svg-graph g,
+.svg-graph rect {
+	opacity: 0;
+}
+
+.svg-graph.animated rect {
+	opacity: 1;
 }
 
 @keyframes slidein {
