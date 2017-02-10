@@ -74,18 +74,14 @@ function register_svgs() {
 	?>
 	<svg class="animate svg-graph" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 270">
 		<defs>
-			<linearGradient id="spa-a" x1="121.27" y1="104.82" x2="121.27" y2="56.11" gradientUnits="userSpaceOnUse">
-				<stop offset="0" stop-color="#89b43f"/>
-				<stop offset="1" stop-color="#56aa46"/>
+			<linearGradient id="spa-green" x1="0" x2="0" y1="0" y2="1">
+				<stop offset="0%" stop-color="#89b43f"/>
+				<stop offset="100%" stop-color="#56aa46"/>
 			</linearGradient>
-			<linearGradient id="spa-b" x1="236.5" y1="101.57" x2="236.5" y2="38.26" xlink:href="#spa-a"/>
-			<linearGradient id="spa-c" x1="121.27" y1="104.82" x2="121.27" y2="216.02" gradientUnits="userSpaceOnUse">
-				<stop offset="0" stop-color="#00a5bd"/>
-				<stop offset="1" stop-color="#1b9e85"/>
+			<linearGradient id="spa-blue" x1="0" x2="0" y1="0" y2="1">
+				<stop offset="0%" stop-color="#00a5bd"/>
+				<stop offset="100%" stop-color="#1b9e85"/>
 			</linearGradient>
-			<linearGradient id="spa-d" x1="236.5" y1="101.57" x2="236.5" y2="216.02" xlink:href="#spa-c"/>
-			<linearGradient id="spa-e" x1="71.42" y1="267.58" x2="71.42" y2="252.42" xlink:href="#spa-a"/>
-			<linearGradient id="spa-f" x1="162.08" y1="252.42" x2="162.08" y2="267.58" xlink:href="#spa-c"/>
 		</defs>
 		<title>Sponsored project awards received</title>
 		<line x1="63.65" y1="216.02" x2="294.12" y2="216.02" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
@@ -105,21 +101,33 @@ function register_svgs() {
 		<line x1="63.65" y1="94.26" x2="69.42" y2="94.26" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
 		<line x1="63.65" y1="53.68" x2="69.42" y2="53.68" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
 		<line x1="63.65" y1="13.09" x2="69.42" y2="13.09" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<rect x="79.79" y="56.11" width="82.97" height="48.7" style="fill:url(#spa-a)"/>
-		<rect x="195.02" y="38.26" width="82.97" height="63.31" style="fill:url(#spa-b)"/>
-		<rect x="79.79" y="104.82" width="82.97" height="111.21" style="fill:url(#spa-c)"/>
-		<rect x="195.02" y="101.57" width="82.97" height="114.45" style="fill:url(#spa-d)"/>
+		<rect x="79.79" y="56.11" width="82.97" height="48.7" fill="url(#spa-green)" class="bar">
+			<animate attributeName="height" to="48.7" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="56.11" from="104.81" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="195.02" y="38.26" width="82.97" height="63.31" fill="url(#spa-green)" class="bar">
+			<animate attributeName="height" to="63.31" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="38.26" from="101.57" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="79.79" y="104.82" width="82.97" height="111.21" fill="url(#spa-blue)" class="bar">
+			<animate attributeName="height" to="111.21" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="104.82" from="216.03" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="195.02" y="101.57" width="82.97" height="114.45" fill="url(#spa-blue)" class="bar">
+			<animate attributeName="height" to="114.45" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="101.57" from="216.02" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
 		<text transform="translate(103.52 228.08)" style="font-size:8px;">FY 2015</text>
 		<text transform="translate(219.02 228.08)" style="font-size:8px;">FY 2016</text>
-		<text transform="translate(87.84 123.34)" style="font-size:11px;font-weight:700">$137,237,387</text>
-		<text transform="translate(201.84 119.37)" style="font-size:11px;font-weight:700">$140,714,791</text>
-		<text transform="translate(91.57 74.4)" style="font-size:11px;font-weight:700">$59,852,123</text>
-		<text transform="translate(205.19 55.84)" style="font-size:11px;font-weight:700">$78,454,069</text>
-		<text transform="translate(87.33 49.61)" style="font-size:11px;font-weight:700">$197,089,510</text>
-		<text transform="translate(201.33 32.01)" style="font-size:11px;font-weight:700">$219,168,860</text>
-		<rect x="63.83" y="252.42" width="15.17" height="15.17" style="fill:url(#spa-e)"/>
+		<text transform="translate(87.84 123.34)" class="numbers">$137,237,387</text>
+		<text transform="translate(201.84 119.37)" class="numbers">$140,714,791</text>
+		<text transform="translate(91.57 74.4)" class="numbers">$59,852,123</text>
+		<text transform="translate(205.19 55.84)" class="numbers">$78,454,069</text>
+		<text transform="translate(87.33 49.61)" class="numbers">$197,089,510</text>
+		<text transform="translate(201.33 32.01)" class="numbers">$219,168,860</text>
+		<rect x="63.83" y="252.42" width="15.17" height="15.17" fill="url(#spa-green)"/>
 		<text transform="translate(85.04 262.64)" style="font-size:9px;">Non-federal</text>
-		<rect x="154.5" y="252.42" width="15.17" height="15.17" style="fill:url(#spa-f)"/>
+		<rect x="154.5" y="252.42" width="15.17" height="15.17" fill="url(#spa-blue)"/>
 		<text transform="translate(175.56 262.64)" style="font-size:9px;">Federal</text>
 	</svg>
 	<?php
@@ -131,13 +139,10 @@ function register_svgs() {
 	?>
 	<svg class="animate svg-graph" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 270">
 		<defs>
-			<linearGradient id="rr-a" x1="71.23" y1="173.34" x2="71.23" y2="256.03" gradientUnits="userSpaceOnUse">
-				<stop offset="0" stop-color="#00a5bd"/>
-				<stop offset="1" stop-color="#1b9e85"/>
+			<linearGradient id="rr-blue" x1="0" x2="0" y1="0" y2="1">
+				<stop offset="0%" stop-color="#00a5bd"/>
+				<stop offset="100%" stop-color="#1b9e85"/>
 			</linearGradient>
-			<linearGradient id="rr-b" x1="128.85" y1="155.99" x2="128.85" y2="256.03" xlink:href="#rr-a"/>
-			<linearGradient id="rr-c" x1="186.46" y1="128.59" x2="186.46" y2="256.03" xlink:href="#rr-a"/>
-			<linearGradient id="rr-d" x1="244.08" y1="53.1" x2="244.08" y2="256.03" xlink:href="#rr-a"/>
 		</defs>
 		<title>Royalty revenue</title>
 		<line x1="42.43" y1="256.03" x2="272.89" y2="256.03" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
@@ -157,66 +162,30 @@ function register_svgs() {
 		<line x1="42.43" y1="154.57" x2="48.19" y2="154.57" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
 		<line x1="42.43" y1="103.83" x2="48.19" y2="103.83" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
 		<line x1="42.43" y1="53.1" x2="48.19" y2="53.1" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<rect x="50.49" y="173.34" width="41.48" height="82.7" style="fill:url(#rr-a)"/>
-		<rect x="108.11" y="155.99" width="41.48" height="100.05" style="fill:url(#rr-b)"/>
-		<rect x="165.72" y="128.59" width="41.48" height="127.44" style="fill:url(#rr-c)"/>
-		<rect x="223.34" y="53.1" width="41.48" height="202.93" style="fill:url(#rr-d)"/>
+		<rect x="50.49" y="173.34" width="41.48" height="82.7" class="bar" fill="url(#rr-blue)">
+			<animate attributeName="height" to="82.7" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="173.34" from="256.04" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="108.11" y="155.99" width="41.48" height="100.05" fill="url(#rr-blue)" class="bar">
+			<animate attributeName="height" to="100.05" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="155.99" from="256.04" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="165.72" y="128.59" width="41.48" height="127.44" fill="url(#rr-blue)" class="bar">
+			<animate attributeName="height" to="127.44" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="128.59" from="256.04" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="223.34" y="53.1" width="41.48" height="202.93" fill="url(#rr-blue)" class="bar">
+			<animate attributeName="height" to="202.93" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="53.1" from="256.03" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
 		<text transform="translate(59.87 266.54)" style="font-size:8px;">2013</text>
 		<text transform="translate(118.37 266.54)" style="font-size:8px;">2014</text>
 		<text transform="translate(176.87 266.54)" style="font-size:8px;">2015</text>
 		<text transform="translate(236.37 266.54)" style="font-size:8px;">2016</text>
-		<text transform="translate(55.91 169.09) rotate(-45)" style="font-size:10.950329780578613px;font-weight:700">$814,907</text>
-		<text transform="translate(113.23 151.63) rotate(-45)" style="font-size:11px;font-weight:700">$985,785</text>
-		<text transform="translate(170.04 124.16) rotate(-45)" style="font-size:11px;font-weight:700">$1,255,399</text>
-		<text transform="translate(231.87 48.12) rotate(-45)" style="font-size:11px;font-weight:700">$1,955,051</text>
-	</svg>
-	<?php
-	$svg_2 = ob_get_contents();
-	ob_end_clean();
-
-	// Commercialization activity
-	ob_start();
-	?>
-	<svg class="animate svg-graph" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 270">
-		<defs>
-			<linearGradient id="rr-a" x1="71.23" y1="173.34" x2="71.23" y2="256.03" gradientUnits="userSpaceOnUse">
-				<stop offset="0" stop-color="#00a5bd"/>
-				<stop offset="1" stop-color="#1b9e85"/>
-			</linearGradient>
-			<linearGradient id="rr-b" x1="128.85" y1="155.99" x2="128.85" y2="256.03" xlink:href="#rr-a"/>
-			<linearGradient id="rr-c" x1="186.46" y1="128.59" x2="186.46" y2="256.03" xlink:href="#rr-a"/>
-			<linearGradient id="rr-d" x1="244.08" y1="53.1" x2="244.08" y2="256.03" xlink:href="#rr-a"/>
-		</defs>
-		<title>Royalty revenue</title>
-		<line x1="42.43" y1="256.03" x2="272.89" y2="256.03" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<line x1="42.43" y1="256.03" x2="42.43" y2="250.96" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<line x1="100.04" y1="256.03" x2="100.04" y2="250.96" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<line x1="157.66" y1="256.03" x2="157.66" y2="250.96" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<line x1="215.27" y1="256.03" x2="215.27" y2="250.96" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<line x1="272.89" y1="256.03" x2="272.89" y2="250.96" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<text transform="translate(33.68 260.09)" style="font-size:9px;">0</text>
-		<text transform="translate(31.28 209.35)" style="font-size:9px;">.5</text>
-		<text transform="translate(26.14 158.62)" style="font-size:9px;">1.0</text>
-		<text transform="translate(26.14 107.89)" style="font-size:9px;">1.5</text>
-		<text transform="translate(26.14 57.15)" style="font-size:9px;">2.0</text>
-		<line x1="42.43" y1="256.03" x2="42.43" y2="53.1" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<line x1="42.43" y1="256.03" x2="48.19" y2="256.03" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<line x1="42.43" y1="205.3" x2="48.19" y2="205.3" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<line x1="42.43" y1="154.57" x2="48.19" y2="154.57" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<line x1="42.43" y1="103.83" x2="48.19" y2="103.83" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<line x1="42.43" y1="53.1" x2="48.19" y2="53.1" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<rect x="50.49" y="173.34" width="41.48" height="82.7" style="fill:url(#rr-a)"/>
-		<rect x="108.11" y="155.99" width="41.48" height="100.05" style="fill:url(#rr-b)"/>
-		<rect x="165.72" y="128.59" width="41.48" height="127.44" style="fill:url(#rr-c)"/>
-		<rect x="223.34" y="53.1" width="41.48" height="202.93" style="fill:url(#rr-d)"/>
-		<text transform="translate(59.87 266.54)" style="font-size:8px;">2013</text>
-		<text transform="translate(118.37 266.54)" style="font-size:8px;">2014</text>
-		<text transform="translate(176.87 266.54)" style="font-size:8px;">2015</text>
-		<text transform="translate(236.37 266.54)" style="font-size:8px;">2016</text>
-		<text transform="translate(55.91 169.09) rotate(-45)" style="font-size:10.950329780578613px;font-weight:700">$814,907</text>
-		<text transform="translate(113.23 151.63) rotate(-45)" style="font-size:11px;font-weight:700">$985,785</text>
-		<text transform="translate(170.04 124.16) rotate(-45)" style="font-size:11px;font-weight:700">$1,255,399</text>
-		<text transform="translate(231.87 48.12) rotate(-45)" style="font-size:11px;font-weight:700">$1,955,051</text>
+		<text transform="translate(55.91 169.09) rotate(-45)" class="numbers">$814,907</text>
+		<text transform="translate(113.23 151.63) rotate(-45)" class="numbers">$985,785</text>
+		<text transform="translate(170.04 124.16) rotate(-45)" class="numbers">$1,255,399</text>
+		<text transform="translate(231.87 48.12) rotate(-45)" class="numbers">$1,955,051</text>
 	</svg>
 	<?php
 	$svg_2 = ob_get_contents();
@@ -227,42 +196,22 @@ function register_svgs() {
 	?>
 	<svg class="animate svg-graph" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 270">
 		<defs>
-			<linearGradient id="ca-b" x1="119.26" y1="215.62" x2="119.26" y2="134.76" gradientUnits="userSpaceOnUse">
-				<stop offset="0" stop-color="#f47623"/>
-				<stop offset="1" stop-color="#f7a51c"/>
+			<linearGradient id="ca-green" x1="0" x2="0" y1="0" y2="1">
+				<stop offset="0%" stop-color="#89b43f"/>
+				<stop offset="100%" stop-color="#56aa46"/>
 			</linearGradient>
-			<linearGradient id="ca-c" x1="232.26" y1="215.62" x2="232.26" y2="29.78" xlink:href="#ca-b"/>
-			<linearGradient id="ca-d" x1="345.26" y1="215.62" x2="345.26" y2="153.67" xlink:href="#ca-b"/>
-			<linearGradient id="ca-e" x1="458.26" y1="215.62" x2="458.26" y2="169.32" xlink:href="#ca-b"/>
-			<linearGradient id="ca-f" x1="571.26" y1="215.62" x2="571.26" y2="211.06" xlink:href="#ca-b"/>
-			<linearGradient id="ca-g" x1="96.66" y1="141.94" x2="96.66" y2="215.62" gradientUnits="userSpaceOnUse">
-				<stop offset="0" stop-color="#00a5bd"/>
-				<stop offset="1" stop-color="#1b9e85"/>
+			<linearGradient id="ca-blue" x1="0" x2="0" y1="0" y2="1">
+				<stop offset="0%" stop-color="#00a5bd"/>
+				<stop offset="100%" stop-color="#1b9e85"/>
 			</linearGradient>
-			<linearGradient id="ca-h" x1="209.66" y1="64.34" x2="209.66" y2="215.62" xlink:href="#ca-g"/>
-			<linearGradient id="ca-i" x1="322.66" y1="175.84" x2="322.66" y2="215.62" xlink:href="#ca-g"/>
-			<linearGradient id="ca-j" x1="435.66" y1="179.76" x2="435.66" y2="215.62" xlink:href="#ca-g"/>
-			<linearGradient id="ca-k" x1="548.66" y1="209.75" x2="548.66" y2="215.62" xlink:href="#ca-g"/>
-			<linearGradient id="ca-l" x1="187.06" y1="52.49" x2="187.06" y2="215.51" gradientUnits="userSpaceOnUse">
-				<stop offset="0" stop-color="#ef395f"/>
-				<stop offset="0.74" stop-color="#f04d4c"/>
+			<linearGradient id="ca-red" x1="0" x2="0" y1="0" y2="1">
+				<stop offset="0%" stop-color="#ef395f"/>
+				<stop offset="100%" stop-color="#f04d4c"/>
 			</linearGradient>
-			<linearGradient id="ca-m" x1="74.06" y1="148.46" x2="74.06" y2="215.62" xlink:href="#ca-l"/>
-			<linearGradient id="ca-n" x1="300.06" y1="170.63" x2="300.06" y2="215.62" xlink:href="#ca-l"/>
-			<linearGradient id="ca-o" x1="413.06" y1="183.67" x2="413.06" y2="215.62" xlink:href="#ca-l"/>
-			<linearGradient id="ca-p" x1="526.06" y1="212.36" x2="526.06" y2="215.62" xlink:href="#ca-l"/>
-			<linearGradient id="ca-q" x1="51.46" y1="215.62" x2="51.46" y2="172.58" gradientUnits="userSpaceOnUse">
-				<stop offset="0" stop-color="#89b43f"/>
-				<stop offset="1" stop-color="#56aa46"/>
+			<linearGradient id="ca-orange" x1="0" x2="0" y1="0" y2="1">
+				<stop offset="0%" stop-color="#f47623"/>
+				<stop offset="100%" stop-color="#f7a51c"/>
 			</linearGradient>
-			<linearGradient id="ca-r" x1="164.46" y1="215.62" x2="164.46" y2="89.12" xlink:href="#ca-q"/>
-			<linearGradient id="ca-s" x1="277.46" y1="215.62" x2="277.46" y2="161.5" xlink:href="#ca-q"/>
-			<linearGradient id="ca-t" x1="390.46" y1="215.62" x2="390.46" y2="187.58" xlink:href="#ca-q"/>
-			<linearGradient id="ca-u" x1="503.46" y1="215.62" x2="503.46" y2="213.01" xlink:href="#ca-q"/>
-			<linearGradient id="ca-v" x1="36.12" y1="268.22" x2="36.12" y2="253.05" xlink:href="#ca-q"/>
-			<linearGradient id="ca-w" x1="92.79" y1="253.05" x2="92.79" y2="268.22" xlink:href="#ca-l"/>
-			<linearGradient id="ca-x" x1="147.79" y1="253.05" x2="147.79" y2="268.22" xlink:href="#ca-g"/>
-			<linearGradient id="ca-y" x1="200.46" y1="268.22" x2="200.46" y2="253.05" xlink:href="#ca-b"/>
 		</defs>
 		<title>Commercialization activity</title>
 		<rect x="-379.83" y="-25.64" width="1623.66" height="390.79" style="stroke:#354049;stroke-miterlimit:10;fill:url(#ca-a)"/>
@@ -288,53 +237,113 @@ function register_svgs() {
 		<line x1="28.86" y1="85.21" x2="42.99" y2="85.21" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
 		<line x1="28.86" y1="52.6" x2="42.99" y2="52.6" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
 		<line x1="28.86" y1="20" x2="42.99" y2="20" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
-		<rect x="109.09" y="134.76" width="20.34" height="80.86" style="fill:url(#ca-b)"/>
-		<rect x="222.09" y="29.78" width="20.34" height="185.84" style="fill:url(#ca-c)"/>
-		<rect x="335.09" y="153.67" width="20.34" height="61.95" style="fill:url(#ca-d)"/>
-		<rect x="448.09" y="169.32" width="20.34" height="46.3" style="fill:url(#ca-e)"/>
-		<rect x="561.09" y="211.06" width="20.34" height="4.56" style="fill:url(#ca-f)"/>
-		<rect x="86.49" y="141.94" width="20.34" height="73.68" style="fill:url(#ca-g)"/>
-		<rect x="199.49" y="64.34" width="20.34" height="151.28" style="fill:url(#ca-h)"/>
-		<rect x="312.49" y="175.84" width="20.34" height="39.78" style="fill:url(#ca-i)"/>
-		<rect x="425.49" y="179.76" width="20.34" height="35.86" style="fill:url(#ca-j)"/>
-		<rect x="538.49" y="209.75" width="20.34" height="5.87" style="fill:url(#ca-k)"/>
-		<rect x="176.89" y="52.49" width="20.34" height="163.02" style="fill:url(#ca-l)"/>
-		<rect x="63.89" y="148.46" width="20.34" height="67.16" style="fill:url(#ca-m)"/>
-		<rect x="289.89" y="170.63" width="20.34" height="44.99" style="fill:url(#ca-n)"/>
-		<rect x="402.89" y="183.67" width="20.34" height="31.95" style="fill:url(#ca-o)"/>
-		<rect x="515.89" y="212.36" width="20.34" height="3.26" style="fill:url(#ca-p)"/>
-		<rect x="41.29" y="172.58" width="20.34" height="43.04" style="fill:url(#ca-q)"/>
-		<rect x="154.29" y="89.12" width="20.34" height="126.5" style="fill:url(#ca-r)"/>
-		<rect x="267.29" y="161.5" width="20.34" height="54.12" style="fill:url(#ca-s)"/>
-		<rect x="380.29" y="187.58" width="20.34" height="28.04" style="fill:url(#ca-t)"/>
-		<rect x="493.29" y="213.01" width="20.34" height="2.61" style="fill:url(#ca-u)"/>
-		<text transform="translate(54.54 170.37) rotate(-90)" style="font-size:11px;;font-weight:700">66</text>
-		<text transform="translate(77.87 146.14) rotate(-90)" style="font-size:11px;;font-weight:700">103</text>
-		<text transform="translate(100.04 140.17) rotate(-90)" style="font-size:11px;;font-weight:700">113</text>
-		<text transform="translate(122.87 132.81) rotate(-90)" style="font-size:11px;;font-weight:700">124</text>
-		<text transform="translate(166.54 86.34) rotate(-90)" style="font-size:11px;;font-weight:700">194</text>
-		<text transform="translate(189.96 50.68) rotate(-90)" style="font-size:11px;;font-weight:700">250</text>
-		<text transform="translate(212.54 61.55) rotate(-90)" style="font-size:11px;;font-weight:700">232</text>
-		<text transform="translate(234.96 26.64) rotate(-90)" style="font-size:11px;;font-weight:700">285</text>
-		<text transform="translate(280.21 159.53) rotate(-90)" style="font-size:11px;;font-weight:700">83</text>
-		<text transform="translate(303.04 169.53) rotate(-90)" style="font-size:11px;;font-weight:700">69</text>
-		<text transform="translate(325.62 173.98) rotate(-90)" style="font-size:11px;;font-weight:700">61</text>
-		<text transform="translate(348.62 151.98) rotate(-90)" style="font-size:11px;;font-weight:700">95</text>
-		<text transform="translate(393.79 185.58) rotate(-90)" style="font-size:11px;;font-weight:700">43</text>
-		<text transform="translate(415.46 181.58) rotate(-90)" style="font-size:11px;;font-weight:700">49</text>
-		<text transform="translate(439.79 177.98) rotate(-90)" style="font-size:11px;;font-weight:700">55</text>
-		<text transform="translate(461.46 168.2) rotate(-90)" style="font-size:11px;;font-weight:700">71</text>
-		<text transform="translate(505.79 210.31) rotate(-90)" style="font-size:11px;;font-weight:700">4</text>
-		<text transform="translate(528.62 210.31) rotate(-90)" style="font-size:11px;;font-weight:700">5</text>
-		<text transform="translate(551.46 207.03) rotate(-90)" style="font-size:11px;;font-weight:700">9</text>
-		<text transform="translate(573.12 208.31) rotate(-90)" style="font-size:11px;;font-weight:700">7</text>
-		<rect x="28.54" y="253.05" width="15.17" height="15.17" style="fill:url(#ca-v)"/>
+		<rect x="109.09" y="134.76" width="20.34" height="80.86" fill="url(#ca-orange)" class="bar">
+			<animate attributeName="height" to="80.86" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="134.76" from="215.62" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="222.09" y="29.78" width="20.34" height="185.84" fill="url(#ca-orange)" class="bar">
+			<animate attributeName="height" to="185.84" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="29.78" from="215.62" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="335.09" y="153.67" width="20.34" height="61.95" fill="url(#ca-orange)" class="bar">
+			<animate attributeName="height" to="61.95" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="153.67" from="215.62" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="448.09" y="169.32" width="20.34" height="46.3" fill="url(#ca-orange)" class="bar">
+			<animate attributeName="height" to="46.3" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="169.32" from="215.62" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="561.09" y="211.06" width="20.34" height="4.56" fill="url(#ca-orange)" class="bar">
+			<animate attributeName="height" to="4.56" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="211.06" from="215.62" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="86.49" y="141.94" width="20.34" height="73.68" fill="url(#ca-blue)" class="bar">
+			<animate attributeName="height" to="73.68" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="141.94" from="215.62" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="199.49" y="64.34" width="20.34" height="151.28" fill="url(#ca-blue)" class="bar">
+			<animate attributeName="height" to="151.28" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="64.34" from="215.62" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="312.49" y="175.84" width="20.34" height="39.78" fill="url(#ca-blue)" class="bar">
+			<animate attributeName="height" to="39.78" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="175.84" from="215.62" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="425.49" y="179.76" width="20.34" height="35.86" fill="url(#ca-blue)" class="bar">
+			<animate attributeName="height" to="35.86" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="179.76" from="215.62" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="538.49" y="209.75" width="20.34" height="5.87" fill="url(#ca-blue)" class="bar">
+			<animate attributeName="height" to="5.87" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="209.75" from="215.62" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="176.89" y="52.49" width="20.34" height="163.02" fill="url(#ca-red)" class="bar">
+			<animate attributeName="height" to="163.02" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="52.49" from="215.62" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="63.89" y="148.46" width="20.34" height="67.16" fill="url(#ca-red)" class="bar">
+			<animate attributeName="height" to="67.16" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="148.46" from="215.62" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="289.89" y="170.63" width="20.34" height="44.99" fill="url(#ca-red)" class="bar">
+			<animate attributeName="height" to="44.99" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="170.63" from="215.62" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="402.89" y="183.67" width="20.34" height="31.95" fill="url(#ca-red)" class="bar">
+			<animate attributeName="height" to="31.95" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="183.67" from="215.62" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="515.89" y="212.36" width="20.34" height="3.26" fill="url(#ca-red)" class="bar">
+			<animate attributeName="height" to="3.26" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="212.36" from="215.62" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="41.29" y="172.58" width="20.34" height="43.04" fill="url(#ca-green)" class="bar">
+			<animate attributeName="height" to="43.04" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="172.58" from="215.62" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="154.29" y="89.12" width="20.34" height="126.5" fill="url(#ca-green)" class="bar">
+			<animate attributeName="height" to="126.5" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="89.12" from="215.62" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="267.29" y="161.5" width="20.34" height="54.12" fill="url(#ca-green)" class="bar">
+			<animate attributeName="height" to="54.12" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="161.5" from="215.62" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="380.29" y="187.58" width="20.34" height="28.04" fill="url(#ca-green)" class="bar">
+			<animate attributeName="height" to="28.04" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="187.58" from="215.62" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<rect x="493.29" y="213.01" width="20.34" height="2.61" fill="url(#ca-green)" class="bar">
+			<animate attributeName="height" to="2.61" from="0" dur="2s" begin="indefinite" fill="freeze" />
+			<animate attributeName="y" to="213.01" from="215.62" dur="2s" begin="indefinite" fill="freeze" />
+		</rect>
+		<text transform="translate(54.54 170.37) rotate(-90)" class="numbers">66</text>
+		<text transform="translate(77.87 146.14) rotate(-90)" class="numbers">103</text>
+		<text transform="translate(100.04 140.17) rotate(-90)" class="numbers">113</text>
+		<text transform="translate(122.87 132.81) rotate(-90)" class="numbers">124</text>
+		<text transform="translate(166.54 86.34) rotate(-90)" class="numbers">194</text>
+		<text transform="translate(189.96 50.68) rotate(-90)" class="numbers">250</text>
+		<text transform="translate(212.54 61.55) rotate(-90)" class="numbers">232</text>
+		<text transform="translate(234.96 26.64) rotate(-90)" class="numbers">285</text>
+		<text transform="translate(280.21 159.53) rotate(-90)" class="numbers">83</text>
+		<text transform="translate(303.04 169.53) rotate(-90)" class="numbers">69</text>
+		<text transform="translate(325.62 173.98) rotate(-90)" class="numbers">61</text>
+		<text transform="translate(348.62 151.98) rotate(-90)" class="numbers">95</text>
+		<text transform="translate(393.79 185.58) rotate(-90)" class="numbers">43</text>
+		<text transform="translate(415.46 181.58) rotate(-90)" class="numbers">49</text>
+		<text transform="translate(439.79 177.98) rotate(-90)" class="numbers">55</text>
+		<text transform="translate(461.46 168.2) rotate(-90)" class="numbers">71</text>
+		<text transform="translate(505.79 210.31) rotate(-90)" class="numbers">4</text>
+		<text transform="translate(528.62 210.31) rotate(-90)" class="numbers">5</text>
+		<text transform="translate(551.46 207.03) rotate(-90)" class="numbers">9</text>
+		<text transform="translate(573.12 208.31) rotate(-90)" class="numbers">7</text>
+		<rect x="28.54" y="253.05" width="15.17" height="15.17" fill="url(#ca-green)"/>
 		<text transform="translate(50.58 263.27)" style="font-size:9px;">2013</text>
-		<rect x="85.21" y="253.05" width="15.17" height="15.17" style="fill:url(#ca-w)"/>
+		<rect x="85.21" y="253.05" width="15.17" height="15.17" fill="url(#ca-red)"/>
 		<text transform="translate(107.58 263.27)" style="font-size:9px;">2014</text>
-		<rect x="140.21" y="253.05" width="15.17" height="15.17" style="fill:url(#ca-x)"/>
+		<rect x="140.21" y="253.05" width="15.17" height="15.17" fill="url(#ca-blue)"/>
 		<text transform="translate(161.25 263.27)" style="font-size:9px;">2015</text>
-		<rect x="192.87" y="253.05" width="15.17" height="15.17" style="fill:url(#ca-y)"/>
+		<rect x="192.87" y="253.05" width="15.17" height="15.17" fill="url(#ca-green)"/>
 		<text transform="translate(214.92 263.27)" style="font-size:9px;">2016</text>
 		<text transform="translate(62.66 228.08)" style="font-size:8px;">Disclosures</text>
 		<text transform="translate(170.09 228.08)" style="font-size:8px;">Inventions</text>
