@@ -6,6 +6,11 @@ add_action( 'wp_enqueue_scripts', 'research_enqueue_scripts' );
  */
 function research_enqueue_scripts() {
 	wp_enqueue_style( 'custom-style', get_stylesheet_directory_uri() . '/assets/custom-research.css' );
+
+	$post = get_post();
+	if ( isset( $post->post_content ) && has_shortcode( $post->post_content, 'wsu_inline_svg' ) ) {
+		wp_enqueue_script( 'animate-svg', get_stylesheet_directory_uri() . '/js/animate-svg.min.js', array( 'jquery' ), false, true );
+	}
 }
 
 add_filter( 'wsu_content_syndicate_host_data', 'research_filter_syndicate_host_data', 10, 2 );
