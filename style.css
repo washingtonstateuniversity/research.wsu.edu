@@ -1301,21 +1301,32 @@ body[class*="sub-sub-section-"] .wsuwp-content-syndicate-wrapper ul {
 	fill: #fff;
 }
 
-/*.svg-graph.animate rect {
-	animation-duration: 3s;
-  animation-name: slidein;
+.svg-graph .numbers {
+	font-size: 11px;
+	font-weight: 700;
+	opacity: 0;
 }
 
-@keyframes slidein {
-	from {
-		height: 0;
-	}
+.svg-graph.commercialization .numbers {
+	font-size: 9px;
+	font-weight: 700;
+}
 
-	to {
-		height: -100%;
-	}
+.svg-graph.animated .numbers {
+	opacity: 1;
+	-webkit-transition: opacity .2s linear 2s;
+	transition: opacity .2s linear 2s;
+}
 
-}*/
+.svg-graph .bar {
+	opacity: 0;
+}
+
+.svg-graph.animated .bar {
+	opacity: 1;
+	-webkit-transition: opacity .2s linear;
+	transition: opacity .2s linear;
+}
 
 @media only screen and (max-width: 700px) {
 
