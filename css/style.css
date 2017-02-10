@@ -1254,29 +1254,29 @@ body[class*="sub-sub-section-"] .wsuwp-content-syndicate-wrapper ul {
 	fill: #fff;
 }
 
-.svg-graph.animated g {
-	animation-duration: 5s;
-	animation-name: slidein;
+.svg-graph .numbers {
+	font-size: 11px;
+	font-weight: 700;
+	opacity: 0;
 }
 
-.svg-graph g,
-.svg-graph rect {
+.svg-graph.commercialization .numbers {
+	font-size: 9px;
+	font-weight: 700;
+}
+
+.svg-graph.animated .numbers {
 	opacity: 1;
+	transition: opacity .2s linear 2s;
 }
 
-.svg-graph.animated rect {
+.svg-graph .bar {
+	opacity: 0;
+}
+
+.svg-graph.animated .bar {
+	opacity: 1;
 	transition: opacity .2s linear;
-}
-
-@keyframes slidein {
-
-	from {
-		opacity: 0;
-	}
-
-	to {
-		opacity: 1;
-	}
 }
 
 @media only screen and (max-width: 700px) {
