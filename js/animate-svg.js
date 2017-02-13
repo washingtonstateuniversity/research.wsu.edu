@@ -4,16 +4,9 @@
 	 * Check if the element to be animated is in the viewport.
 	 */
 	function inViewport( element ) {
-		if ( element instanceof jQuery ) {
-			element = element[ 0 ];
-		}
+		var rect = element[ 0 ].getBoundingClientRect();
 
-		var rect = element.getBoundingClientRect();
-
-		return rect.bottom > 0 &&
-			rect.right > 0 &&
-			rect.left < ( window.innerWidth || document.documentElement.clientWidth ) &&
-			rect.top < ( window.innerHeight || document.documentElement.clientHeight );
+		return rect.top >= 0 && rect.bottom <= window.innerHeight;
 	}
 
 	/**
@@ -24,11 +17,18 @@
 		var $elementsToAnimate = $( ".animate" );
 
 		$elementsToAnimate.each( function() {
-			var $element = $( this );
+			var $element = $( this ),
+				bars = this.getElementsByTagName( "animate" );
+
 			$( document ).on( "scroll", function() {
-				if ( !inViewport( $element ) ) {
+				if ( !inViewport( $element ) || $element.hasClass( "animated" ) ) {
 					return;
 				}
+
+				for ( var i = 0; i < bars.length; i++ ) {
+					bars[ i ].beginElement();
+				}
+
 				$element.addClass( "animated" );
 			} );
 		} );
