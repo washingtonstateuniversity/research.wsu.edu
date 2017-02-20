@@ -267,7 +267,6 @@ class WSU_Research_Theme {
 				</linearGradient>
 			</defs>
 			<title>Commercialization activity</title>
-			<rect x="-379.83" y="-25.64" width="1623.66" height="390.79" style="stroke:#354049;stroke-miterlimit:10;fill:url(#ca-a)"/>
 			<line x1="28.86" y1="215.62" x2="593.86" y2="215.62" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
 			<line x1="28.86" y1="215.62" x2="28.86" y2="210.73" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
 			<line x1="141.86" y1="215.62" x2="141.86" y2="210.73" style="fill:none;stroke:#717272;stroke-miterlimit:10"/>
