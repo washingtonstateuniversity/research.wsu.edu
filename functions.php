@@ -60,8 +60,9 @@ class WSU_Research_Theme {
 	function research_enqueue_scripts() {
 		wp_enqueue_style( 'custom-style', get_stylesheet_directory_uri() . '/assets/custom-research.css', array(), $this->script_version );
 
+		global $is_IE;
 		$post = get_post();
-		if ( isset( $post->post_content ) && has_shortcode( $post->post_content, 'wsu_inline_svg' ) ) {
+		if ( isset( $post->post_content ) && has_shortcode( $post->post_content, 'wsu_inline_svg' ) && ! $is_IE ) {
 			wp_enqueue_script( 'animate-svg', get_stylesheet_directory_uri() . '/js/animate-svg.min.js', array( 'jquery' ), $this->script_version, true );
 		}
 	}
@@ -119,10 +120,12 @@ class WSU_Research_Theme {
 	 * Register SVG data for the WSU Inline SVG plugin.
 	 */
 	function register_svgs() {
+		global $is_IE;
+
 		// Sponsored project awards
 		ob_start();
 		?>
-		<svg class="animate svg-graph" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 270">
+		<svg class="svg-graph<?php if ( ! $is_IE ) { echo ' animate'; } ?>" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 270">
 			<defs>
 				<linearGradient id="spa-green" x1="0" x2="0" y1="0" y2="1">
 					<stop offset="0%" stop-color="#89b43f"/>
@@ -187,7 +190,7 @@ class WSU_Research_Theme {
 		// Royalty revenue
 		ob_start();
 		?>
-		<svg class="animate svg-graph" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 270">
+		<svg class="svg-graph<?php if ( ! $is_IE ) { echo ' animate'; } ?>" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 270">
 			<defs>
 				<linearGradient id="rr-blue" x1="0" x2="0" y1="0" y2="1">
 					<stop offset="0%" stop-color="#00a5bd"/>
@@ -244,7 +247,7 @@ class WSU_Research_Theme {
 		// Commercialization activity
 		ob_start();
 		?>
-		<svg class="animate svg-graph" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 270">
+		<svg class="svg-graph<?php if ( ! $is_IE ) { echo ' animate'; } ?>" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 270">
 			<defs>
 				<linearGradient id="ca-green" x1="0" x2="0" y1="0" y2="1">
 					<stop offset="0%" stop-color="#89b43f"/>
