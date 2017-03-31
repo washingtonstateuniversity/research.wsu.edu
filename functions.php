@@ -395,7 +395,7 @@ class WSU_Research_Theme {
 			<text transform="translate(107.58 263.27)" style="font-size:9px;">2014</text>
 			<rect x="140.21" y="253.05" width="15.17" height="15.17" fill="url(#ca-blue)"/>
 			<text transform="translate(161.25 263.27)" style="font-size:9px;">2015</text>
-			<rect x="192.87" y="253.05" width="15.17" height="15.17" fill="url(#ca-green)"/>
+			<rect x="192.87" y="253.05" width="15.17" height="15.17" fill="url(#ca-orange)"/>
 			<text transform="translate(214.92 263.27)" style="font-size:9px;">2016</text>
 			<text transform="translate(62.66 228.08)" style="font-size:8px;">Disclosures</text>
 			<text transform="translate(170.09 228.08)" style="font-size:8px;">Inventions</text>
