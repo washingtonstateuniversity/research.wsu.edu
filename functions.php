@@ -313,7 +313,7 @@ function register_svgs() {
 			<animate attributeName="height" to="28.04" from="0" dur="2s" begin="indefinite" fill="freeze" />
 			<animate attributeName="y" to="187.58" from="215.62" dur="2s" begin="indefinite" fill="freeze" />
 		</rect>
-		<rect x="493.29" y="213.01" width="20.34" height="2.61" fill="url(#ca-green)" class="bar">
+		<rect x="493.29" y="213.01" width="20.34" height="2.61" fill="url(#ca-orange)" class="bar">
 			<animate attributeName="height" to="2.61" from="0" dur="2s" begin="indefinite" fill="freeze" />
 			<animate attributeName="y" to="213.01" from="215.62" dur="2s" begin="indefinite" fill="freeze" />
 		</rect>
