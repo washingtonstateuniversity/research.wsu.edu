@@ -76,25 +76,12 @@ class WSU_Research_Theme {
 	 * @return object Modified data.
 	 */
 	function research_filter_syndicate_host_data( $subset, $post ) {
-		if ( is_array( $post ) && ! empty( $post['featured_media'] ) && ! empty( $post['_links']['wp:featuredmedia'] ) ) {
-			$media_request_url = $post['_links']['wp:featuredmedia'][0]['href'];
-			$media_request = WP_REST_Request::from_url( $media_request_url );
-			$media_response = rest_do_request( $media_request );
-			$data = $media_response->data;
-			$data = $data['media_details']['sizes'];
 
-			if ( isset( $data['spine-medium-size'] ) ) {
-				$subset->thumbnail = $data['spine-medium-size']['source_url'];
+		if ( isset( $post->featured_media ) && isset( $subset->featured_media ) ) {
+			if ( isset( $subset->featured_media->media_details->sizes->{'spine-medium_size'} ) ) {
+				$subset->thumbnail = $subset->featured_media->media_details->sizes->{'spine-medium_size'}->source_url;
 			} else {
-				$subset->thumbnail = $media_response->data['source_url'];
-			}
-		} elseif ( isset( $post->featured_media ) && isset( $post->_embedded->{'wp:featuredmedia'} ) && 0 < count( $post->_embedded->{'wp:featuredmedia'} ) ) {
-			$subset_feature = $post->_embedded->{'wp:featuredmedia'}[0]->media_details;
-
-			if ( isset( $subset_feature->sizes->{'spine-medium_size'} ) ) {
-				$subset->thumbnail = $subset_feature->sizes->{'spine-medium_size'}->source_url;
-			} else {
-				$subset->thumbnail = $post->_embedded->{'wp:featuredmedia'}[0]->source_url;
+				$subset->thumbnail = $subset->featured_media->source_url;
 			}
 		} else {
 			$subset->thumbnail = false;
